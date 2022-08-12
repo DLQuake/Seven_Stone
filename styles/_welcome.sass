@@ -1,0 +1,83 @@
+.welcome
+    width: 100%
+    display: flex
+    justify-content: center
+    align-items: center
+    flex-direction: column
+    gap: 40px
+
+    &__container
+        display: flex
+        width: 1012px
+
+    &__left
+        display: flex
+        flex-direction: column
+
+        &-big-text
+            width: 772px
+            font-weight: 400
+            font-size: 123.917px
+            line-height: 100.14%
+            color: $MSUGreen
+
+        &-small-text
+            width: 152px
+            font-weight: 800
+            font-size: 18.5875px
+            line-height: 26px
+            color: $MSUGreen
+            position: relative
+            top: -220px
+            left: 360px
+
+        &-table
+            display: flex
+            flex-direction: row
+            align-items: center
+            gap: 50px
+            font-weight: 800
+            font-size: 15.3684px
+
+            &-row
+                display: flex
+                width: 300px
+                flex-direction: row
+                align-items: center
+                justify-content: space-between
+                border-bottom: 1px solid $Honeydew
+                padding: 3.8px 0
+                gap: 50px
+
+            &-head
+                display: flex
+                flex-direction: row
+                justify-content: flex-end
+                gap: 35px
+                border-bottom: 1px solid $Honeydew
+                padding: 3.8px 0
+
+            &-left
+                text-align: left
+                &--gray
+                    color: $Honeydew
+
+            &-right
+                text-align: right
+                &--gray
+                    color: $Honeydew
+
+    &__right
+        position: relative
+        right: 85px
+        z-index: -1
+
+    &__rectangle
+        width: 1012px
+        height: 0px
+        border-top: 2px solid $MSUGreen
+        text-align: center
+
+        &-image
+            position: relative
+            top: -4.5px

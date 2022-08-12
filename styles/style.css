@@ -1,0 +1,499 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Mont";
+  font-style: normal;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 70px 0;
+  gap: 100px;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 250px;
+}
+.navigation__list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  gap: 40px;
+}
+.navigation__list-item {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #093E38;
+  text-decoration: none;
+  font-weight: 800;
+  font-size: 15px;
+  line-height: 20px;
+}
+.navigation__list-item:hover {
+  text-decoration: underline;
+  text-underline-position: under;
+}
+.navigation__list-item--login {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  background: #ADDBE2;
+  color: #FFFFFF;
+  padding: 12px 42px;
+  text-transform: uppercase;
+}
+.navigation__list-item--login:hover {
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+
+.welcome {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 40px;
+}
+.welcome__container {
+  display: flex;
+  width: 1012px;
+}
+.welcome__left {
+  display: flex;
+  flex-direction: column;
+}
+.welcome__left-big-text {
+  width: 772px;
+  font-weight: 400;
+  font-size: 123.917px;
+  line-height: 100.14%;
+  color: #093E38;
+}
+.welcome__left-small-text {
+  width: 152px;
+  font-weight: 800;
+  font-size: 18.5875px;
+  line-height: 26px;
+  color: #093E38;
+  position: relative;
+  top: -220px;
+  left: 360px;
+}
+.welcome__left-table {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 50px;
+  font-weight: 800;
+  font-size: 15.3684px;
+}
+.welcome__left-table-row {
+  display: flex;
+  width: 300px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #D4E5CE;
+  padding: 3.8px 0;
+  gap: 50px;
+}
+.welcome__left-table-head {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  gap: 35px;
+  border-bottom: 1px solid #D4E5CE;
+  padding: 3.8px 0;
+}
+.welcome__left-table-left {
+  text-align: left;
+}
+.welcome__left-table-left--gray {
+  color: #D4E5CE;
+}
+.welcome__left-table-right {
+  text-align: right;
+}
+.welcome__left-table-right--gray {
+  color: #D4E5CE;
+}
+.welcome__right {
+  position: relative;
+  right: 85px;
+  z-index: -1;
+}
+.welcome__rectangle {
+  width: 1012px;
+  height: 0px;
+  border-top: 2px solid #093E38;
+  text-align: center;
+}
+.welcome__rectangle-image {
+  position: relative;
+  top: -4.5px;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+  margin-top: 40px;
+  margin-bottom: 80px;
+}
+
+.about-us {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 100px;
+}
+.about-us__flex1 {
+  display: flex;
+  flex-direction: row;
+  gap: 80px;
+}
+.about-us__flex1-text {
+  width: 608px;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.about-us__flex1-text-big {
+  width: 496px;
+  font-weight: 900;
+  font-size: 33.7558px;
+  line-height: 108%;
+  color: #D4E5CE;
+}
+.about-us__flex1-text-small {
+  font-family: "Tiempos Headline";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #093E38;
+}
+.about-us__flex2 {
+  display: flex;
+  flex-direction: row;
+  gap: 80px;
+}
+.about-us__flex2-text {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 240px;
+  padding: 50px;
+  background: #D4E5CE;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 126%;
+}
+.about-us__flex2-text-rectangle {
+  height: 0;
+  text-align: center;
+  border: 2px solid #093E38;
+}
+.about-us__flex2-text-rectangle-image {
+  position: relative;
+  top: -10px;
+}
+.about-us__rectangle {
+  width: 1012px;
+  height: 0px;
+  border-top: 2px solid #093E38;
+  text-align: center;
+}
+.about-us__rectangle-image {
+  position: relative;
+  top: -4.5px;
+}
+
+.deals {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 80px;
+}
+.deals__content {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 100px;
+}
+.deals__content-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 757px;
+  gap: 25px;
+}
+.deals__content-text-big {
+  width: 660.28px;
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 108%;
+  color: #093E38;
+}
+.deals__content-text-small {
+  font-family: "Tiempos Headline";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #093E38;
+}
+.deals__content-text-small-bold {
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 22px;
+  color: #093E38;
+}
+.deals__prices {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.deals__prices-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.deals__prices-content-text {
+  position: relative;
+  top: -95px;
+}
+.deals__prices-content-price {
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 20px;
+  color: #093E38;
+  background-color: #D4E5CE;
+  padding: 15px;
+  width: 148px;
+  text-align: center;
+}
+.deals__prices-content-data {
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 19px;
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.035em;
+  background-color: #093E38;
+  color: #D4E5CE;
+  padding: 15px;
+  width: 238px;
+}
+.deals__link {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+.deals__link-line {
+  width: 344px;
+  height: 0px;
+  border-top: 2px solid #093E38;
+}
+.deals__link-arrow-right {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.deals__link-text {
+  font-weight: 800;
+  font-size: 15px;
+  line-height: 20px;
+  text-align: center;
+  color: #093E38;
+  border: 2px solid #093E38;
+  padding: 10px 40px;
+  text-decoration: none;
+}
+.deals__link-arrow-left {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.loan-options {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 80px;
+}
+.loan-options__title {
+  width: 1012px;
+  height: 265px;
+  background: url(../img/jimmy-chang-ACt8ycSzpdE-unsplash.png) no-repeat center center;
+}
+.loan-options__title-text {
+  width: 455.63px;
+  font-weight: 500;
+  font-size: 102.821px;
+  line-height: 100.1%;
+  color: #FFFFFF;
+  background-color: #D4E5CE;
+  padding: 34px;
+  position: relative;
+  top: 32px;
+  left: 34px;
+}
+.loan-options__text {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 80px;
+}
+.loan-options__text-big {
+  font-weight: 800;
+  font-size: 30px;
+  line-height: 108%;
+  color: #093E38;
+  width: 301px;
+}
+.loan-options__text-small {
+  font-family: "Tiempos Headline";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #093E38;
+  width: 567.67px;
+}
+.loan-options__buttons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+.loan-options__buttons-button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+.loan-options__buttons-button-text {
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #093E38;
+}
+.loan-options__buttons-button-rectangle {
+  width: 238px;
+  height: 0;
+  border: 1px solid #093E38;
+  text-align: center;
+}
+.loan-options__buttons-button-rectangle-image {
+  position: relative;
+  top: -15px;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  gap: 80px;
+}
+.contact__form {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 1012px;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.contact__form-item {
+  width: 448px;
+  background: #FFFFFF;
+  border: 4px solid #D4E5CE;
+  color: #093E38;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  display: flex;
+  padding: 20px;
+}
+.contact__form-item:hover {
+  transform: scale(1.05);
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+.contact__form-item::-moz-placeholder {
+  color: #093E38;
+}
+.contact__form-item:-ms-input-placeholder {
+  color: #093E38;
+}
+.contact__form-item::placeholder {
+  color: #093E38;
+}
+.contact__form-item--textarea {
+  width: 1012px;
+  height: 186.34px;
+  color: #093E38;
+  resize: none;
+}
+.contact__form-item--submit {
+  width: 181.17px;
+  height: 53.89px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #ADDBE2;
+  color: #FFFFFF;
+  font-weight: 800;
+  font-size: 15px;
+  cursor: pointer;
+  border: none;
+  padding: 20px 100px;
+}
+.contact__form-item--submit:hover {
+  background: #D4E5CE;
+}
+.contact__form-adress {
+  margin-right: 80px;
+}
+.contact__form-socials {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.contact__form-socials-item {
+  background: #D4E5CE;
+  padding: 20px 25px;
+}
+
+.footer {
+  height: 488.21px;
+  background: #093E38;
+}/*# sourceMappingURL=style.css.map */

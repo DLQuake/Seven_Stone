@@ -1,0 +1,39 @@
+.navigation
+    display: flex
+    justify-content: space-between
+    align-items: center
+    gap: 250px
+
+    &__list
+        display: flex
+        justify-content: space-between
+        align-items: center
+        list-style: none
+        gap: 40px
+
+        &-item
+            font-weight: 400
+            font-size: 18px
+            line-height: 22px
+            color: $MSUGreen
+            text-decoration: none
+            font-weight: 800
+            font-size: 15px
+            line-height: 20px
+
+            &:hover
+                text-decoration: underline
+                text-underline-position: under
+
+            &--login
+                font-weight: 700
+                font-size: 16px
+                line-height: 19px
+                background: $PowderBlue
+                color: $White
+                padding: 12px 42px
+                text-transform: uppercase
+
+                &:hover
+                    text-decoration: none
+                    transition: all 0.3s ease-in-out
