@@ -11,6 +11,7 @@
         flex-direction: row
         align-items: flex-start
         gap: 100px
+        margin-bottom: 100px
 
         &-text
             display: flex
@@ -53,6 +54,7 @@
             display: flex
             flex-direction: column
             justify-content: center
+            height: 310px
 
             &-text
                 position: relative
@@ -89,6 +91,7 @@
 
         gap: 50px
 
+
         &-line
             width: 344px
             height: 0px
@@ -110,7 +113,55 @@
             padding: 10px 40px
             text-decoration: none
 
+            &:hover
+                cursor: pointer
+                background: $Honeydew
+                transition: all 0.3s ease-in-out
+
         &-arrow-left
             display: flex
             flex-direction: row
             align-items: center
+
+
+@media (max-width: 1020px)
+    .deals
+        &__content
+            flex-direction: column
+            align-items: center
+            justify-content: center
+
+            &-image
+                display: none
+
+            &-text
+                width: 80vw
+
+                &-big
+                    width: 100%
+
+        &__prices
+            gap: 40px
+
+            &-content
+                width: 169px
+                height: 250px
+
+                &-price
+                    width: 121px
+
+                &-data
+                    width: 139px
+                    font-size: 14px
+
+
+        &__link
+            gap: 20px
+            &-arrow-right
+                width: 20vw
+
+            &-text
+                padding: 10px 20px
+
+            &-arrow-left
+                width: 20vw

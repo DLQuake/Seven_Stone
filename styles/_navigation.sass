@@ -4,12 +4,23 @@
     align-items: center
     gap: 250px
 
+    &__button
+        background-color: transparent
+        border: 0
+        display: none
+        color: $MSUGreen
+        cursor: pointer
+
+
     &__list
         display: flex
         justify-content: space-between
         align-items: center
         list-style: none
         gap: 40px
+
+        &-rectangle
+            display: none
 
         &-item
             font-weight: 400
@@ -24,6 +35,8 @@
             &:hover
                 text-decoration: underline
                 text-underline-position: under
+                color: $PowderBlue
+                transition: all 0.3s ease-in-out
 
             &--login
                 font-weight: 700
@@ -36,4 +49,86 @@
 
                 &:hover
                     text-decoration: none
+                    background: $Honeydew
+                    color: $MSUGreen
                     transition: all 0.3s ease-in-out
+
+        &-show-table
+            display: none
+
+
+@media (max-width: 1370px)
+    .navigation
+        gap: 20vw
+        justify-content: space-between
+
+        // &__logo-image
+        //     width: 40vw
+
+        &__button
+            display: flex
+            transition: all 0.3s ease-in-out
+
+            &.active
+                transform: rotate(180deg)
+
+        &__list
+            display: none
+            flex-direction: column
+            align-items: center
+            justify-content: center
+            background: $White
+            width: 100%
+            padding: 0px 0 150px 0
+
+            position: absolute
+            top: 180px
+            left: 0
+            gap: 30px
+
+            &-rectangle
+                display: block
+                width: 228px
+                height: 0
+                border: 1px solid $MSUGreen
+                text-align: center
+
+                &-image
+                    position: relative
+                    top: -8px
+
+            &-item--login
+                text-transform: capitalize
+                position: relative
+                top: 50px
+
+            &-show-table
+                display: block
+                text-align: center
+                display: flex
+                flex-direction: column
+                gap: 10px
+                color: $MSUGreen
+                font-weight: 800
+                font-size: 14px
+                line-height: 19px
+                position: relative
+                top: 80px
+
+                &-rectangle
+                    width: 228px
+                    height: 0
+                    border: 1px solid $MSUGreen
+                    text-align: center
+
+                    &-image
+                        position: relative
+                        top: -15px
+                        transform: rotate(180deg)
+
+    .show
+        display: flex
+
+@media (max-width: 360px)
+    .navigation__logo-image
+            width: 169px

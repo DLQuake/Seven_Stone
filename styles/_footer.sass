@@ -1,3 +1,166 @@
 .footer
     height: 488.21px
     background: $MSUGreen
+
+    display: flex
+    flex-direction: column
+    justify-content: center
+    align-items: center
+    gap: 70px
+
+    &__navigation
+        display: flex
+        flex-direction: column
+        justify-content: center
+        align-items: center
+        gap: 20px
+
+        &-image
+            width: 282.12px
+            height: 32.96px
+
+        &-list
+            display: flex
+            flex-direction: row
+            gap: 50px
+            list-style: none
+
+            &-item
+                font-weight: 800
+                font-size: 15px
+                line-height: 20px
+                color: $Honeydew
+                text-decoration: none
+
+                &:hover
+                    color: $PowderBlue
+                    text-decoration: underline
+                    text-underline-position: under
+                    cursor: pointer
+                    transition: all 0.3s ease-in-out, text-decoration 0.3s ease-in-out
+
+    &__rectangle
+        width: 177px
+        height: 0px
+        border: 2px solid #CDDEC6
+        text-align: center
+        display: none
+
+        &-image
+            position: relative
+            top: -5px
+
+    &__form
+        display: flex
+        flex-direction: column
+        justify-content: center
+        align-items: center
+        gap: 20px
+
+        &-small-text
+            width: 444px
+            font-size: 16px
+            line-height: 21px
+            text-align: center
+            color: $White
+
+        &-inputs
+            width: 580px
+            height: 49.05px
+            display: flex
+
+            &-email
+                width: 410.5px
+                background: $White
+                box-shadow: 0px 14px 27px -8px rgba(0, 0, 0, 0.15)
+                padding: 0px 20px
+                border: none
+
+                &::placeholder
+                    font-weight: 400
+                    font-size: 16px
+                    line-height: 21px
+                    color: #CFCFCF
+
+                &:hover
+                    background: $PowderBlue
+                    transition: all 0.3s ease-in-out
+                    cursor: pointer
+
+                    &::placeholder
+                        color: $MSUGreen
+                        transition: all 0.3s ease-in-out
+
+            &-signup
+                width: 169.5px
+                background: #CDDEC6
+                box-shadow: 0px 14px 27px -8px rgba(0, 0, 0, 0.15)
+                font-weight: 900
+                font-size: 16px
+                line-height: 22px
+                color: $MSUGreen
+                border: none
+
+
+                &:hover
+                    background: $PowderBlue
+                    color: $MSUGreen
+                    cursor: pointer
+                    transition: all 0.3s ease-in-out
+
+    &__data
+        display: flex
+        flex-direction: column
+        justify-content: center
+        align-items: center
+        // gap: 20px
+        color: $White
+
+
+@media (max-width: 580px)
+    .footer
+        width: 100%
+        padding: 80px 0px
+        gap: 100px
+
+        &__navigation
+            &-image
+                width: 182.72px
+                height: 21.35px
+            &-list
+                display: none
+
+        &__rectangle
+            display: block
+            position: relative
+            top: 50px
+
+        &__form
+
+            &-small-text
+                width: 60vw
+
+            &-inputs
+                position: relative
+                top: 50px
+                flex-direction: column
+                justify-content: center
+                align-items: center
+                gap: 20px
+                width: 100%
+                height: 44.38px
+
+                &-email
+                    width: 70vw
+                    padding: 10px 20px
+
+                &-signup
+                    width: 40vw
+                    padding: 10px 20px
+
+        &__data
+            &-adres
+                position: relative
+                top: -400px
+                text-align: center
+                width: 80vw

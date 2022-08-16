@@ -6,6 +6,15 @@
     width: 100%
     gap: 80px
 
+    &__title
+        display: none
+        width: 1034.68px
+        font-weight: 400
+        font-size: 60px
+        line-height: 100.14%
+        text-align: center
+        color: $MSUGreen
+
     &__form
         display: flex
         flex-direction: row
@@ -27,9 +36,9 @@
             padding: 20px
 
             &:hover
-                transform: scale(1.05)
                 transition: all 0.3s ease-in-out
                 cursor: pointer
+                background: $PowderBlue
 
             &::placeholder
                 color: $MSUGreen
@@ -55,18 +64,52 @@
                 padding: 20px 100px
 
                 &:hover
+                    transform: scale(1.05)
                     background: $Honeydew
+                    color: $MSUGreen
 
         &-adress
-            margin-right: 80px
+            margin-right: 130px
 
         &-socials
             display: flex
             flex-direction: row
             align-items: center
             justify-content: center
-            gap: 20px
+            gap: 10px
 
             &-item
+                width: 53.89px
+                height: 53.89px
+                font-size: 25px
+                display: flex
+                align-items: center
+                justify-content: center
+                text-decoration: none
                 background: $Honeydew
-                padding: 20px 25px
+                color: $MSUGreen
+
+                &:hover
+                    background: $PowderBlue
+                    transform: scale(1.05)
+                    transition: all 0.3s ease-in-out
+                    cursor: pointer
+
+
+@media (max-width: 1020px)
+    .contact
+        &__title
+            width: 80vw
+            font-size: 30px
+
+        &__form
+            width: 100%
+
+            &-item
+                width: 80vw
+
+                &--submit
+                    width: 40vw
+
+            &-adress
+                display: none
