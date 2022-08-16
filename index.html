@@ -11,7 +11,8 @@
     <link rel="stylesheet" href="styles/style.css">
     <link href="http://fonts.cdnfonts.com/css/mont" rel="stylesheet">
     <link href="http://fonts.cdnfonts.com/css/tiempos-headline" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/c3b80f3861.js" crossorigin="anonymous"></script>
+
 </head>
 
 <body>
@@ -23,17 +24,29 @@
                 </a>
             </div>
 
-            <!-- <button class="navigation__button" id="hamburger">
-                <div class="navigation__button-rectangle"></div>
-                <div class="navigation__button-rectangle"></div>
-            </button> -->
+            <button class="navigation__button" id="hamburger">
+                <img class="navigation__button-image" src="img/Polygon 1.png" alt="button">
+            </button>
 
             <ul class="navigation__list" id="navUL">
-                <li><a class="navigation__list-item" href="#">Leadership</a></li>
-                <li><a class="navigation__list-item" href="#">Transactions</a></li>
-                <li><a class="navigation__list-item" href="#">About Us</a></li>
-                <li><a class="navigation__list-item" href="#">Contact</a></li>
-                <li><a class="navigation__list-item navigation__list-item--login" href="login.html">Login</a></li>
+                <li><div class="navigation__list-rectangle"><img src="img/triangle_down-mobile.png" alt="traingle" class="navigation__list-rectangle-image"></div></li>
+                <li><a class="navigation__list-item" href="leadership.html">Leadership</a></li>
+                <li><div class="navigation__list-rectangle"><img src="img/triangle_down-mobile.png" alt="traingle" class="navigation__list-rectangle-image"></div></li>
+                <li><a class="navigation__list-item" href="transactions.html">Transactions</a></li>
+                <li><div class="navigation__list-rectangle"><img src="img/triangle_down-mobile.png" alt="traingle" class="navigation__list-rectangle-image"></div></li>
+                <li><a class="navigation__list-item" id="aboutus_header" href="#">About Us</a></li>
+                <li><div class="navigation__list-rectangle"><img src="img/triangle_down-mobile.png" alt="traingle" class="navigation__list-rectangle-image"></div></li>
+                <li><a class="navigation__list-item" id="contact_header" href="#">Contact</a></li>
+                <li><div class="navigation__list-rectangle"><img src="img/triangle_down-mobile.png" alt="traingle" class="navigation__list-rectangle-image"></div></li>
+                <li><a class="navigation__list-item navigation__list-item--login" href="#">Login</a></li>
+                <li>
+                    <div id="showTable" class="navigation__list-show-table">
+                        VIEW LIVE INTEREST RATES
+                        <div class="navigation__list-show-table-rectangle">
+                            <img src="img/triangle_down-mobile.png" alt="traingle" class="navigation__list-show-table-rectangle-image">
+                        </div>
+                    </div>
+                </li>
             </ul>
         </nav>
 
@@ -42,7 +55,7 @@
                 <div class="welcome__left">
                     <div class="welcome__left-big-text">Come on in, we're closing.</div>
                     <div class="welcome__left-small-text">Commercial Mortgage Brokerage</div>
-                    <div class="welcome__left-table">
+                    <div class="welcome__left-table" id="table">
                         <table class="welcome__left-table-first">
                             <tr class="welcome__left-table-row">
                                 <th class="welcome__left-table-left">LIVE INTEREST RATES</th>
@@ -97,6 +110,8 @@
                                 <td class="welcome__left-table-right">1.5%</td>
                             </tr>
                         </table>
+
+                        <button class="welcome__left-table-button" id="closeTable">Back</button>
                     </div>
                 </div>
 
@@ -105,7 +120,7 @@
                 </div>
             </div>
 
-            <div class="welcome__rectangle">
+            <div class="welcome__rectangle" id="Toaboutus">
                 <img class="welcome__rectangle-image" src="img/Polygon 1.png" alt="triangle">
             </div>
         </div>
@@ -114,8 +129,7 @@
     <main class="main">
         <section class="about-us">
             <div class="about-us__flex1">
-                <img class="about-us__flex1-image" src="img/patrick-tomasso-5eZu5p0vSPg-unsplash copy.png"
-                    alt="Bulding">
+                <img class="about-us__flex1-image" src="img/patrick-tomasso-5eZu5p0vSPg-unsplash copy.png" alt="Bulding">
 
                 <div class="about-us__flex1-text">
                     <h1 class="about-us__flex1-text-big">
@@ -342,7 +356,7 @@
                         Office
                     </div>
 
-                    <div class="loan-options__buttons-button-rectangle">
+                    <div class="loan-options__buttons-button-rectangle" id="Tocontact">
                         <img src="img/triangle_up.png" alt="arrow" class="loan-options__buttons-button-rectangle-image">
                     </div>
                 </div>
@@ -350,6 +364,9 @@
         </section>
 
         <section class="contact">
+            <div class="contact__title">
+                Take these terms and call us in the morning.
+            </div>
             <form class="contact__form">
                 <input class="contact__form-item" type="text"placeholder="First Name">
                 <input class="contact__form-item" type="text"placeholder="Last Name">
@@ -363,20 +380,59 @@
                 </div>
 
                 <div class="contact__form-socials">
-                    <i class="contact__form-socials-item fa fa-facebook"></i>
-                    <i class="contact__form-socials-item fa fa-instagram"></i>
-                    <i class="contact__form-socials-item fa fa-twitter"></i>
+                    <a class="contact__form-socials-item" href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                    <a class="contact__form-socials-item" href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                    <a class="contact__form-socials-item" href="https://twitter.com/"><i class="fa-brands fa-twitter"></i></a>
                 </div>
-
                 <button  class="contact__form-item contact__form-item--submit" type="submit">Submit</button>
             </form>
         </section>
     </main>
 
     <footer class="footer">
+        <nav class="footer__navigation">
+            <img src="img/Logo-white.png" alt="Logo Seven Stone" class="footer__navigation-image">
 
+            <ul class="footer__navigation-list" id="navUL">
+                <li><a class="footer__navigation-list-item" href="leadership.html">Leadership</a></li>
+                <li><a class="footer__navigation-list-item" href="transactions.html">Transactions</a></li>
+                <li><a class="footer__navigation-list-item" id="aboutus_footer" href="#">About Us</a></li>
+                <li><a class="footer__navigation-list-item" id="contact_footer" href="#">Contact</a></li>
+            </ul>
+        </nav>
+
+        <div class="footer__rectangle">
+            <img src="img/triangle_down.png" alt="arrow" class="footer__rectangle-image">
+        </div>
+
+        <form class="footer__form" action="#">
+            <div class="footer__form-small-text">
+                Join our email list so we can spam you with our latest
+                success stories, and industry updates.
+            </div>
+
+            <div class="footer__form-inputs">
+                <input class="footer__form-inputs-email" type="email" placeholder="Email Address">
+                <input class="footer__form-inputs-signup" type="submit" value="Sign Up">
+            </div>
+        </form>
+
+        <div class="footer__data">
+            <div class="footer__data-adres">
+                732-965-6791 || 311 Blvd of the Amercias, Suite 401. Lakewood NJ, 08701
+            </div>
+
+            <div class="footer__data-copyrithing">
+                &copy; 2020 Seven Stone Capital LLC
+            </div>
+        </div>
     </footer>
 
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="js/jquery.scrollTo.min.js"></script>
+    <script src="js/scrollto.js"></script>
+    <script src="js/mobile_menu.js"></script>
 </body>
 
 </html>
