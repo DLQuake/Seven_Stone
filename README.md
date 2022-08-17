@@ -1,4 +1,4 @@
-# Seven_Stone
+# Seven Stone
 
 ## Spis treści
  * [Short description of the repository](#short-description-of-the-repository)
