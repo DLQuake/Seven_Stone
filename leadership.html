@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seven Stone</title>
+
+    <link rel="icon" href="img/Layer 1.png">
+    <link rel="stylesheet" href="styles/style.css">
+    <link href="http://fonts.cdnfonts.com/css/mont" rel="stylesheet">
+    <link href="http://fonts.cdnfonts.com/css/tiempos-headline" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/c3b80f3861.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <header class="header">
+        <nav class="navigation">
+            <div class="navigation__logo">
+                <a class="navigation__logo-link" href="index.html">
+                    <img class="navigation__logo-image" src="img/Logo-green.png" alt="Rightfully's logo">
+                </a>
+            </div>
+
+            <button class="navigation__button" id="hamburger">
+                <img class="navigation__button-image" src="img/Polygon 1.png" alt="button">
+            </button>
+
+            <ul class="navigation__list" id="navUL">
+                <li><div class="navigation__list-rectangle"><img src="img/triangle_down-mobile.png" alt="traingle" class="navigation__list-rectangle-image"></div></li>
+                <li><a class="navigation__list-item" href="leadership.html">Leadership</a></li>
+                <li><div class="navigation__list-rectangle"><img src="img/triangle_down-mobile.png" alt="traingle" class="navigation__list-rectangle-image"></div></li>
+                <li><a class="navigation__list-item" href="transactions.html">Transactions</a></li>
+                <li><div class="navigation__list-rectangle"><img src="img/triangle_down-mobile.png" alt="traingle" class="navigation__list-rectangle-image"></div></li>
+                <li><a class="navigation__list-item" id="aboutus_header" href="#">About Us</a></li>
+                <li><div class="navigation__list-rectangle"><img src="img/triangle_down-mobile.png" alt="traingle" class="navigation__list-rectangle-image"></div></li>
+                <li><a class="navigation__list-item" id="contact_header" href="#">Contact</a></li>
+                <li><div class="navigation__list-rectangle"><img src="img/triangle_down-mobile.png" alt="traingle" class="navigation__list-rectangle-image"></div></li>
+                <li><a class="navigation__list-item navigation__list-item--login" href="#">Login</a></li>
+                <li>
+                    <div id="showTable" class="navigation__list-show-table">
+                        VIEW LIVE INTEREST RATES
+                        <div class="navigation__list-show-table-rectangle">
+                            <img src="img/triangle_down-mobile.png" alt="traingle" class="navigation__list-show-table-rectangle-image">
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+
+        <div class="welcome">
+            <div class="welcome__container">
+                <div class="welcome__left">
+                    <div class="welcome__left-big-text welcome__left-big-text--none">Come on in, we're closing.</div>
+                    <div class="welcome__left-small-text welcome__left-small-text--none">Commercial Mortgage Brokerage</div>
+                    <div class="welcome__left-table welcome__left-table--none" id="table">
+                        <table class="welcome__left-table-first">
+                            <tr class="welcome__left-table-row">
+                                <th class="welcome__left-table-left">LIVE INTEREST RATES</th>
+                            </tr>
+                            <tr class="welcome__left-table-row">
+                                <td class="welcome__left-table-left welcome__left-table-left--gray">1-MAR-22</td>
+                                <td class="welcome__left-table-right welcome__left-table-right--gray">thefinancials.com
+                                </td>
+                            </tr>
+                            <tr class="welcome__left-table-row">
+                                <td class="welcome__left-table-left">1-MONTH LIBOR</td>
+                                <td class="welcome__left-table-right">0.241%</td>
+                            </tr>
+                            <tr class="welcome__left-table-row">
+                                <td class="welcome__left-table-left">SOFR - 30-DAY AVG</td>
+                                <td class="welcome__left-table-right">0.050%</td>
+                            </tr>
+                            <tr class="welcome__left-table-row">
+                                <td class="welcome__left-table-left">PRIME RATE</td>
+                                <td class="welcome__left-table-right">3.25</td>
+                            </tr>
+                        </table>
+
+                        <table class="welcome__left-table-second">
+                            <tr class="welcome__left-table-head">
+                                <th class="welcome__left-table-head-right">U.S. TREASURY</th>
+                                <th class="welcome__left-table-head-right">LIBOR</th>
+                                <th class="welcome__left-table-head-right">SPFR</th>
+                            </tr>
+                            <tr class="welcome__left-table-row">
+                                <td class="welcome__left-table-left">05-YEAR</td>
+                                <td class="welcome__left-table-right">1.5%</td>
+                                <td class="welcome__left-table-right">1.5%</td>
+                                <td class="welcome__left-table-right">1.5%</td>
+                            </tr>
+                            <tr class="welcome__left-table-row">
+                                <td class="welcome__left-table-left">07-YEAR</td>
+                                <td class="welcome__left-table-right">1.5%</td>
+                                <td class="welcome__left-table-right">1.5%</td>
+                                <td class="welcome__left-table-right">1.5%</td>
+                            </tr>
+                            <tr class="welcome__left-table-row">
+                                <td class="welcome__left-table-left">10-YEAR</td>
+                                <td class="welcome__left-table-right">1.5%</td>
+                                <td class="welcome__left-table-right">1.5%</td>
+                                <td class="welcome__left-table-right">1.5%</td>
+                            </tr>
+                            <tr class="welcome__left-table-row">
+                                <td class="welcome__left-table-left">30-YEAR</td>
+                                <td class="welcome__left-table-right">1.5%</td>
+                                <td class="welcome__left-table-right">1.5%</td>
+                                <td class="welcome__left-table-right">1.5%</td>
+                            </tr>
+                        </table>
+
+                        <button class="welcome__left-table-button" id="closeTable">Back</button>
+                    </div>
+                </div>
+
+                <div class="welcome__right welcome__right--none">
+                    <img src="img/unsplash_JI01fn0U7Cg.png" alt="Building" class="welcome__right-image">
+                </div>
+            </div>
+
+            <div class="welcome__rectangle welcome__rectangle--none" id="Toaboutus">
+                <img class="welcome__rectangle-image" src="img/Polygon 1.png" alt="triangle">
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+        <section class="leadership">
+            <div class="leadership__title">
+                <h1 class="leadership__title-big-text">
+                    Sevenstone Capital Leadership
+                </h1>
+                <p class="leadership__title-small-text">
+                    Part time business analysts & street fighters. Also full time commercial real estate mortgage
+                    brokers. When you use one of us, you get the power of all of us. For better or for worse.
+                </p>
+            </div>
+
+            <div class="leadership__leaders">
+                <div class="leadership__leaders-leader">
+                    <div class="leadership__leaders-leader-who">
+                        <img src="img/CJ_Donziger.png" alt="Image of CJ Donziger" class="leadership__leaders-leader-who-image">
+
+                        <div class="leadership__leaders-leader-who-data">
+                            <div class="leadership__leaders-leader-who-name">
+                                CJ Danziger <br>
+                                Partner
+                            </div>
+                            <div class="leadership__leaders-leader-who-show-about" id="showAbout1">
+                                <i class="fa-solid fa-chevron-down"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="leadership__leaders-leader-about" id="about1">
+                        <div class="leadership__leaders-leader-about-text">
+                            CJ Danziger has been in the mortgage
+                            brokerage industry since 2012. Formerly a
+                            broker at Eastern Union, Danziger has
+                            closed $750 million in loans since 2016. A
+                            top ten broker at Eastern Union, he has
+                            been involved in closings all over the east
+                            coast. Danziger was born in Lakewood,
+                            New Jersey, and currently resides in
+                            Jackson NJ with his wife and children. He
+                            is an avid golfer, and enjoys playing guitar
+                            and piano.
+                        </div>
+
+                        <div class="leadership__leaders-leader-about-contact">
+                            732.965.6783
+                            <div class="leadership__leaders-leader-about-contact-socials">
+                                <a href="#" target="_blank" class="leadership__leaders-leader-about-contact-socials-link">
+                                    <i class="fa-solid fa-download"></i>
+                                </a>
+                                <a href="https://www.linkedin.com/" class="leadership__leaders-leader-about-contact-socials-link">
+                                    <i class="fa-brands fa-linkedin"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="leadership__leaders-leader-rectangle">
+                        <img src="img/triangle_up.png" alt="traingle" class="leadership__leaders-leader-rectangle-image">
+                    </div>
+                </div>
+
+                <div class="leadership__leaders-leader">
+                    <div class="leadership__leaders-leader-who">
+                        <img src="img/David_Eisen.png" alt="Image of CJ Donziger" class="leadership__leaders-leader-who-image">
+
+                        <div class="leadership__leaders-leader-who-data">
+                            <div class="leadership__leaders-leader-who-name">
+                                David Eisen <br>
+                                Partner
+                            </div>
+                            <div class="leadership__leaders-leader-who-show-about" id="showAbout2">
+                                <i class="fa-solid fa-chevron-down"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="leadership__leaders-leader-about" id="about2">
+                        <div class="leadership__leaders-leader-about-text">
+                            Prior to founding Sevenstone in 2020,
+                            David Eisen served as a Senior Loan
+                            Consultant at EUF. During his time there,
+                            the Brooklyn native was awarded top ten
+                            broker five years in a row, and closed on
+                            $375 million in loans in 2019. He takes
+                            responsibility to his clients seriously,
+                            assuming the role of a trusted advisor with
+                            expertise that goes beyond the
+                            spreadsheet. Aside from his 10+ years
+                            of experience within the brokerage industry,
+                            Eise is active in his local community and
+                            serves as the treasurer of his synagogue.
+                            He currently resides in Lakewood, New
+                            Jersey with his wife and his 3 girls & 2 boys.
+                        </div>
+
+                        <div class="leadership__leaders-leader-about-contact">
+                            732.965.6772
+                            <div class="leadership__leaders-leader-about-contact-socials">
+                                <a href="#" target="_blank" class="leadership__leaders-leader-about-contact-socials-link">
+                                    <i class="fa-solid fa-download"></i>
+                                </a>
+                                <a href="https://www.linkedin.com/" class="leadership__leaders-leader-about-contact-socials-link">
+                                    <i class="fa-brands fa-linkedin"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="leadership__leaders-leader-rectangle">
+                        <img src="img/triangle_up.png" alt="traingle" class="leadership__leaders-leader-rectangle-image">
+                    </div>
+                </div>
+
+                <div class="leadership__leaders-leader">
+                    <div class="leadership__leaders-leader-who">
+                        <img src="img/Moshe_Feiner.png" alt="Image of CJ Donziger" class="leadership__leaders-leader-who-image">
+
+                        <div class="leadership__leaders-leader-who-data">
+                            <div class="leadership__leaders-leader-who-name">
+                                Moshe Feiner <br>
+                                Partner
+                            </div>
+                            <div class="leadership__leaders-leader-who-show-about" id="showAbout3">
+                                <i class="fa-solid fa-chevron-down"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="leadership__leaders-leader-about" id="about3">
+                        <div class="leadership__leaders-leader-about-text">
+                            Prior to becoming one of Sevenstone's
+                            founding partners in 2020, Moshe Feiner
+                            served as the Senior Vice President of
+                            Eastern Union's banking division. In his
+                            tenure there, he cemented relationships
+                            with over 200 banks nationwide, and
+                            secured direct placement for over $3
+                            billion in debt across all asset classes.
+                            Moshe puts as much energy and focus into
+                            structuring his deals as he does to his
+                            scotch collection. He currently resides
+                            in Toms River, NJ with his wife and children.
+                        </div>
+
+                        <div class="leadership__leaders-leader-about-contact">
+                            732.965.6776
+                            <div class="leadership__leaders-leader-about-contact-socials">
+                                <a href="#" target="_blank" class="leadership__leaders-leader-about-contact-socials-link">
+                                    <i class="fa-solid fa-download"></i>
+                                </a>
+                                <a href="https://www.linkedin.com/" class="leadership__leaders-leader-about-contact-socials-link">
+                                    <i class="fa-brands fa-linkedin"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="leadership__leaders-leader-rectangle">
+                        <img src="img/triangle_up.png" alt="traingle" class="leadership__leaders-leader-rectangle-image">
+                    </div>
+                </div>
+
+                <div class="leadership__leaders-leader">
+                    <div class="leadership__leaders-leader-who">
+                        <img src="img/Phil_Krispin.png" alt="Image of CJ Donziger" class="leadership__leaders-leader-who-image">
+
+                        <div class="leadership__leaders-leader-who-data">
+                            <div class="leadership__leaders-leader-who-name">
+                                Phil Krispin <br>
+                                Partner
+                            </div>
+                            <div class="leadership__leaders-leader-who-show-about" id="showAbout4">
+                                <i class="fa-solid fa-chevron-down"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="leadership__leaders-leader-about" id="about4">
+                        <div class="leadership__leaders-leader-about-text">
+                            Phil Krispin is the head of Sevenstone's
+                            healthcare division. Boasting over seven
+                            years of experience working with the
+                            healthcare industry, Krispin was a Senior
+                            Originator at Greystone & Co. before he
+                            founded the healthcare specialty division
+                            of Eastern Union in 2015, where he grew
+                            the division 100% year over year. He was
+                            part of Commercial Observer's 25 under 35
+                            in 2017, and closed over $300 million
+                            during 2019. The Philadelphia native
+                            prides himself on never losing a client.
+                            Krispin currently lives in Jackson, New
+                            Jersey with his wife and daughters.
+                        </div>
+
+                        <div class="leadership__leaders-leader-about-contact">
+                            732.965.6767
+                            <div class="leadership__leaders-leader-about-contact-socials">
+                                <a href="#" target="_blank" class="leadership__leaders-leader-about-contact-socials-link">
+                                    <i class="fa-solid fa-download"></i>
+                                </a>
+                                <a href="https://www.linkedin.com/" class="leadership__leaders-leader-about-contact-socials-link">
+                                    <i class="fa-brands fa-linkedin"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="leadership__leaders-leader-rectangle">
+                        <img src="img/triangle_up.png" alt="traingle" class="leadership__leaders-leader-rectangle-image">
+                    </div>
+                </div>
+
+                <div class="leadership__leaders-leader">
+                    <div class="leadership__leaders-leader-who">
+                        <img src="img/Jeff_Seidenfeld.png" alt="Image of CJ Donziger" class="leadership__leaders-leader-who-image">
+
+                        <div class="leadership__leaders-leader-who-data">
+                            <div class="leadership__leaders-leader-who-name">
+                                Jeff Seidenfeld <br>
+                                Partner
+                            </div>
+                            <div class="leadership__leaders-leader-who-show-about" id="showAbout5">
+                                <i class="fa-solid fa-chevron-down"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="leadership__leaders-leader-about" id="about5">
+                        <div class="leadership__leaders-leader-about-text">
+                            Prior to becoming a founding member of
+                            Sevenstone in 2020, Partner Jeff Seidenfeld
+                            served as Managing Director at Eastern
+                            Union. Jeff has accrued over 13 years of
+                            experience in the brokerage field, and
+                            prides himself in his personal
+                            relationships with his clients. Seidenfeld
+                            has been involved in placing over $3 billion
+                            in debt and equity to date. He currently
+                            resides in Lakewood, New Jersey with his
+                            wife and children.
+                        </div>
+
+                        <div class="leadership__leaders-leader-about-contact">
+                            732.965.6771
+                            <div class="leadership__leaders-leader-about-contact-socials">
+                                <a href="#" target="_blank" class="leadership__leaders-leader-about-contact-socials-link">
+                                    <i class="fa-solid fa-download"></i>
+                                </a>
+                                <a href="https://www.linkedin.com/" class="leadership__leaders-leader-about-contact-socials-link">
+                                    <i class="fa-brands fa-linkedin"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="leadership__leaders-leader-rectangle">
+                        <img src="img/triangle_up.png" alt="traingle" class="leadership__leaders-leader-rectangle-image">
+                    </div>
+                </div>
+
+                <div class="leadership__leaders-leader">
+                    <div class="leadership__leaders-leader-who">
+                        <img src="img/Meir_Kessner.png" alt="Image of CJ Donziger" class="leadership__leaders-leader-who-image">
+
+                        <div class="leadership__leaders-leader-who-data">
+                            <div class="leadership__leaders-leader-who-name">
+                                Meir Kessner <br>
+                                Partner
+                            </div>
+                            <div class="leadership__leaders-leader-who-show-about" id="showAbout6">
+                                <i class="fa-solid fa-chevron-down"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="leadership__leaders-leader-about" id="about6">
+                        <div class="leadership__leaders-leader-about-text">
+                            Born and raised in Brooklyn, New York,
+                            Meir Kessner has been in the mortgage
+                            brokerage industry since 2005. Getting his
+                            start as an executive assistant at Eastern
+                            Union, Kessner worked his way up
+                            internally, eventually becoming a Senior
+                            Managing Director within the company. He
+                            was named a top ten broker for five straight
+                            years, and closed on $350 million in loans
+                            throughout 2019. Meir enjoys spending
+                            time with his wife and children at their
+                            Lakewood, New Jersey home.
+                        </div>
+
+
+                        <div class="leadership__leaders-leader-about-contact">
+                            732.965.6769
+                            <div class="leadership__leaders-leader-about-contact-socials">
+                                <a href="#" target="_blank" class="leadership__leaders-leader-about-contact-socials-link">
+                                    <i class="fa-solid fa-download"></i>
+                                </a>
+                                <a href="https://www.linkedin.com/" class="leadership__leaders-leader-about-contact-socials-link">
+                                    <i class="fa-brands fa-linkedin"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="leadership__leaders-leader-rectangle">
+                        <img src="img/triangle_up.png" alt="traingle" class="leadership__leaders-leader-rectangle-image">
+                    </div>
+                </div>
+
+                <div class="leadership__leaders-leader">
+                    <div class="leadership__leaders-leader-who">
+                        <img src="img/Abe_Kolman.png" alt="Image of CJ Donziger" class="leadership__leaders-leader-who-image">
+
+                        <div class="leadership__leaders-leader-who-data">
+                            <div class="leadership__leaders-leader-who-name">
+                                Abe Kolman <br>
+                                Senior Broker & Managing Director
+                            </div>
+                            <div class="leadership__leaders-leader-who-show-about" id="showAbout7">
+                                <i class="fa-solid fa-chevron-down"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="leadership__leaders-leader-about" id="about7">
+                        <div class="leadership__leaders-leader-about-text">
+                            Born in Brooklyn, New York, Abe Kolman
+                            began his career at Northbrook Equity
+                            Ventures, where he began accruing his 15+
+                            years of brokerage experience. Following
+                            his work at Northbrook, Kolman worked
+                            his way up to the position of Senior
+                            Underwriter for Eastern Union, where he
+                            became a top producer. During his time
+                            there, he was named a top ten broker over
+                            multiple years, and closed over $150
+                            million during 2019. Kolman enjoys a good
+                            scotch and spending time with his children
+                            and grandchild at his home in Monsey,
+                            New York.
+                        </div>
+
+                        <div class="leadership__leaders-leader-about-contact">
+                            732.965.6777
+                            <div class="leadership__leaders-leader-about-contact-socials">
+                                <a href="#" target="_blank" class="leadership__leaders-leader-about-contact-socials-link">
+                                    <i class="fa-solid fa-download"></i>
+                                </a>
+                                <a href="https://www.linkedin.com/" class="leadership__leaders-leader-about-contact-socials-link">
+                                    <i class="fa-brands fa-linkedin"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="leadership__leaders-leader-rectangle">
+                        <img src="img/triangle_up.png" alt="traingle" class="leadership__leaders-leader-rectangle-image">
+                    </div>
+                </div>
+            </div>
+
+            <div class="leadership__rectangle">
+                <img class="leadership__rectangle-image" src="img/Polygon 1.png" alt="triangle">
+            </div>
+        </section>
+
+        <section class="contact">
+            <div class="contact__title contact__title--show">
+                Take these terms and call us in the morning.
+            </div>
+            <form class="contact__form">
+                <input class="contact__form-item" type="text"placeholder="First Name">
+                <input class="contact__form-item" type="text"placeholder="Last Name">
+                <input class="contact__form-item" type="email" placeholder="Email">
+                <input class="contact__form-item" type="tel" placeholder="Phone">
+                <textarea class="contact__form-item contact__form-item--textarea" placeholder="Write a message" cols="10" rows="10"></textarea>
+
+                <div class="contact__form-adress">
+                    Phone: 732-965-6791 <br>
+                    HQ: 311 Blvd of the Amercias, Suite 401. Lakewood NJ, 08701
+                </div>
+
+                <div class="contact__form-socials">
+                    <a class="contact__form-socials-item" href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                    <a class="contact__form-socials-item" href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                    <a class="contact__form-socials-item" href="https://twitter.com/"><i class="fa-brands fa-twitter"></i></a>
+                </div>
+                <button  class="contact__form-item contact__form-item--submit" type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <nav class="footer__navigation">
+            <img src="img/Logo-white.png" alt="Logo Seven Stone" class="footer__navigation-image">
+
+            <ul class="footer__navigation-list" id="navUL">
+                <li><a class="footer__navigation-list-item" href="leadership.html">Leadership</a></li>
+                <li><a class="footer__navigation-list-item" href="transactions.html">Transactions</a></li>
+                <li><a class="footer__navigation-list-item" id="aboutus_footer" href="#">About Us</a></li>
+                <li><a class="footer__navigation-list-item" id="contact_footer" href="#">Contact</a></li>
+            </ul>
+        </nav>
+
+        <div class="footer__rectangle">
+            <img src="img/triangle_down.png" alt="arrow" class="footer__rectangle-image">
+        </div>
+
+        <form class="footer__form" action="#">
+            <div class="footer__form-small-text">
+                Join our email list so we can spam you with our latest
+                success stories, and industry updates.
+            </div>
+
+            <div class="footer__form-inputs">
+                <input class="footer__form-inputs-email" type="email" placeholder="Email Address">
+                <input class="footer__form-inputs-signup" type="submit" value="Sign Up">
+            </div>
+        </form>
+
+        <div class="footer__data">
+            <div class="footer__data-adres">
+                732-965-6791 || 311 Blvd of the Amercias, Suite 401. Lakewood NJ, 08701
+            </div>
+
+            <div class="footer__data-copyrithing">
+                &copy; 2020 Seven Stone Capital LLC
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="js/jquery.scrollTo.min.js"></script>
+    <script src="js/scrollto.js"></script>
+    <script src="js/mobile_menu.js"></script>
+    <script src="js/leadership_show_about.js"></script>
+</body>
+
+</html>
