@@ -1,7 +1,4 @@
 # Seven_Stone
-Project of "Seven Stone" website
-
-# Rightfully Website
 
 ## Spis treści
  * [Short description of the repository](#short-description-of-the-repository)
