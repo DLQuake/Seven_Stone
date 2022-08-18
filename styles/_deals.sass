@@ -65,11 +65,17 @@
         &--width
             margin-top: 100px
             width: 1132px
+            display: none
 
         &-content
             display: flex
             flex-direction: column
             justify-content: center
+            transition: all 0.3s ease-in-out
+
+            &:hover
+                transform: scale(1.1)
+                cursor: pointer
 
             &-text
                 position: relative
@@ -144,27 +150,119 @@
         border-top: 2px solid $MSUGreen
         text-align: center
 
-    &__filtres
+    &__filters
         display: flex
-        flex-direction: row
+        flex-direction: column
+        align-items: center
+        justify-content: space-between
+
+        &-menu
+            &-text
+                display: none
+
+            &-show-filters
+                display: none
+
+        &-buttons
+            display: flex
+            flex-direction: row
+            align-items: center
+            justify-content: center
+            gap: 20px
+
+            &-item
+                background: $PowderBlue
+                border: none
+                font-weight: 800
+                font-size: 14.5404px
+                line-height: 19px
+                text-align: center
+                color: #FFFFFF
+                padding: 10px 20px
+
+                &:hover
+                    background: $MSUGreen
+                    transition: all 0.3s ease-in-out
+                    cursor: pointer
+
+    &__moving
+        display: flex
+        flex-direction: column
         align-items: center
         justify-content: center
         gap: 20px
 
-        &-item
-            background: $PowderBlue
-            border: none
+        &-more
+            display: none
             font-weight: 800
-            font-size: 14.5404px
-            line-height: 19px
+            font-size: 15px
+            line-height: 20px
             text-align: center
             color: #FFFFFF
-            padding: 10px 20px
+            background: $PowderBlue
+            padding: 10px 77.14px
 
             &:hover
-                background: $MSUGreen
+                background: $Honeydew
                 transition: all 0.3s ease-in-out
                 cursor: pointer
+
+        &-next
+            font-weight: 800
+            font-size: 15px
+            line-height: 20px
+            text-align: center
+            color: #FFFFFF
+            background: $PowderBlue
+            padding: 10px 77.14px
+            border: none
+
+            &:hover
+                background: $Honeydew
+                transition: all 0.3s ease-in-out
+                cursor: pointer
+
+        &-options
+            display: flex
+            flex-direction: row
+            align-items: center
+            justify-content: center
+            gap: 6px
+
+            &-prev
+                display: flex
+                align-items: center
+                border: 2px solid $Honeydew
+                padding: 12px
+                background: $White
+
+                &:hover
+                    background: $PowderBlue
+                    transition: all 0.3s ease-in-out
+                    cursor: pointer
+
+            &-numbers
+                display: flex
+                align-items: center
+                font-weight: 800
+                font-size: 15px
+                line-height: 20px
+                text-align: center
+                color: $MSUGreen
+                padding: 10px 35px
+                border: 2px solid $Honeydew
+
+            &-next
+                display: flex
+                align-items: center
+                border: 2px solid $Honeydew
+                padding: 12px
+                background: $White
+
+                &:hover
+                    background: $PowderBlue
+                    transition: all 0.3s ease-in-out
+                    cursor: pointer
 
 
 @media (max-width: 1140px)
@@ -222,3 +320,58 @@
 
         &__rectangle
             width: 90vw
+
+@media (max-width: 860px)
+    .deals
+        &__filters
+            align-items: flex-end
+            &-menu
+                display: flex
+                flex-direction: row
+                align-items: center
+                justify-content: space-between
+                gap: 30vw
+
+                &-text
+                    display: flex
+                    font-weight: 800
+                    font-size: 15px
+                    line-height: 20px
+
+                &-show-filters
+                    display: flex
+                    font-weight: 800
+                    font-size: 15px
+                    line-height: 20px
+                    gap: 10px
+                    background: #F0F0F0
+                    padding: 10px 20px
+
+                    &-button
+                        font-weight: 800
+                        font-size: 15px
+
+                    &.active .deals__filtres-menu-show-filtres-button
+                        transition: all 0.3s ease-in-out
+                        transform: rotate(180deg)
+            &-buttons
+                display: none
+                flex-direction: column
+                gap: 0
+                position: absolute
+                z-index: 1
+                margin-top: 40px
+
+                &-item
+                    width: 151.5px
+                    background: $MSUGreen
+
+        &__moving
+            &-more
+                display: flex
+
+            &-next
+                display: none
+
+            &-options
+                display: none
