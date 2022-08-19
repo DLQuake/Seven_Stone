@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Seven Stone</title>
+    <title>Transactions</title>
 
     <link rel="icon" href="img/Layer 1.png">
     <link rel="stylesheet" href="styles/style.css">
@@ -13,30 +13,31 @@
     <link href="http://fonts.cdnfonts.com/css/tiempos-headline" rel="stylesheet">
     <script src="https://kit.fontawesome.com/c3b80f3861.js" crossorigin="anonymous"></script>
 
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 
 <body>
     <header class="header">
         <nav class="navigation">
-            <div class="navigation__logo">
+            <div class="navigation__logo" data-aos="fade-right" data-aos-duration="500">
                 <a class="navigation__logo-link" href="index.html">
                     <img class="navigation__logo-image" src="img/Logo-green.png" alt="Rightfully's logo">
                 </a>
             </div>
 
-            <button class="navigation__button" id="hamburger">
+            <button class="navigation__button" id="hamburger" data-aos="fade-left" data-aos-duration="700">
                 <img class="navigation__button-image" src="img/Polygon 1.png" alt="button">
             </button>
 
-            <ul class="navigation__list" id="navUL">
+            <ul class="navigation__list" id="navUL" data-aos="fade-left" data-aos-duration="700">
                 <li><div class="navigation__list-rectangle"><img src="img/triangle_down-mobile.png" alt="traingle" class="navigation__list-rectangle-image"></div></li>
                 <li><a class="navigation__list-item" href="leadership.html">Leadership</a></li>
                 <li><div class="navigation__list-rectangle"><img src="img/triangle_down-mobile.png" alt="traingle" class="navigation__list-rectangle-image"></div></li>
                 <li><a class="navigation__list-item" href="transactions.html">Transactions</a></li>
                 <li><div class="navigation__list-rectangle"><img src="img/triangle_down-mobile.png" alt="traingle" class="navigation__list-rectangle-image"></div></li>
-                <li><a class="navigation__list-item" id="aboutus_header" href="#">About Us</a></li>
+                <li><a class="navigation__list-item" id="aboutus_header" href="index.html#Toaboutus">About Us</a></li>
                 <li><div class="navigation__list-rectangle"><img src="img/triangle_down-mobile.png" alt="traingle" class="navigation__list-rectangle-image"></div></li>
-                <li><a class="navigation__list-item" id="contact_header" href="#">Contact</a></li>
+                <li><a class="navigation__list-item" id="contact_header" href="index.html#Tocontact">Contact</a></li>
                 <li><div class="navigation__list-rectangle"><img src="img/triangle_down-mobile.png" alt="traingle" class="navigation__list-rectangle-image"></div></li>
                 <li><a class="navigation__list-item navigation__list-item--login" href="#">Login</a></li>
                 <li>
@@ -131,11 +132,11 @@
             <div class="deals__content">
 
                 <div class="deals__content-text deals__content-text--center">
-                    <h1 class="deals__content-text-big deals__content-text-big--center">
+                    <h1 class="deals__content-text-big deals__content-text-big--center" data-aos="zoom-in-down" data-aos-duration="700">
                         Get big deals done like it's no big deal
                     </h1>
 
-                    <p class="deals__content-text-small deals__content-text-small--center">
+                    <p class="deals__content-text-small deals__content-text-small--center" data-aos="zoom-in-up" data-aos-duration="700">
                         We don't like to be competitive, or "in line with industry standards."We want to knock your
                         dress
                         socks off and get asked what's the catch. Spoiler, there is none, just seven times the brains,
@@ -146,7 +147,7 @@
                         you.
                     </p>
 
-                    <p class="deals__content-text-small-bold deals__content-text-small-bold">
+                    <p class="deals__content-text-small-bold deals__content-text-small-bold" data-aos="zoom-in-up" data-aos-duration="700">
                         Continue building your empire, one property at a time.
                     </p>
                 </div>
@@ -157,9 +158,9 @@
             </div>
 
             <div class="deals__filters">
-                <div class="deals__filters-menu">
+                <div class="deals__filters-menu" data-aos="fade-up" data-aos-duration="700">
                     <div class="deals__filters-menu-text">Transactions:</div>
-                    <div class="deals__filters-menu-show-filters">
+                    <div class="deals__filters-menu-show-filters" >
                         Filter
                         <div class="deals__filtres-menu-show-filtres-button">
                             <i class="fa-solid fa-chevron-down"></i>
@@ -167,21 +168,21 @@
                     </div>
                 </div>
                 <div class="deals__filters-buttons">
-                    <button class="deals__filters-buttons-item">See all</button>
-                    <button class="deals__filters-buttons-item">Affordable Housing</button>
-                    <button class="deals__filters-buttons-item">Multifamily</button>
-                    <button class="deals__filters-buttons-item">Bridge/Mezz</button>
-                    <button class="deals__filters-buttons-item">Healthcare</button>
-                    <button class="deals__filters-buttons-item">Green</button>
+                    <button class="deals__filters-buttons-item" data-aos="fade-up" data-aos-duration="700">See all</button>
+                    <button class="deals__filters-buttons-item" data-aos="fade-up" data-aos-duration="900">Affordable Housing</button>
+                    <button class="deals__filters-buttons-item" data-aos="fade-up" data-aos-duration="1100">Multifamily</button>
+                    <button class="deals__filters-buttons-item" data-aos="fade-up" data-aos-duration="1300">Bridge/Mezz</button>
+                    <button class="deals__filters-buttons-item" data-aos="fade-up" data-aos-duration="1500">Healthcare</button>
+                    <button class="deals__filters-buttons-item" data-aos="fade-up" data-aos-duration="1700">Green</button>
                 </div>
             </div>
 
             <!-------------------PAGE 01 ------------------->
             <div class="deals__prices deals__prices--width">
-                <div class="deals__prices-content">
+                <div class="deals__prices-content deals__prices-content--height" data-aos="fade-up" data-aos-duration="800">
                     <img src="img/dom_1.png" alt="house" class="deals__prices-content-image">
 
-                    <div class="deals__prices-content-text">
+                    <div class="deals__prices-content-text" data-aos="fade-up" data-aos-duration="1000">
                         <div class="deals__prices-content-price">
                             $41,000,000
                         </div>
@@ -194,10 +195,10 @@
                     </div>
                 </div>
 
-                <div class="deals__prices-content deals__prices-content--height">
+                <div class="deals__prices-content deals__prices-content--height" data-aos="fade-up" data-aos-duration="800">
                     <img src="img/dom_4.png" alt="house" class="deals__prices-content-image">
 
-                    <div class="deals__prices-content-text">
+                    <div class="deals__prices-content-text" data-aos="fade-up" data-aos-duration="1000">
                         <div class="deals__prices-content-price">
                             $41,000,000
                         </div>
@@ -210,10 +211,10 @@
                     </div>
                 </div>
 
-                <div class="deals__prices-content deals__prices-content--height">
+                <div class="deals__prices-content deals__prices-content--height" data-aos="fade-up" data-aos-duration="800">
                     <img src="img/dom_2.png" alt="house" class="deals__prices-content-image">
 
-                    <div class="deals__prices-content-text">
+                    <div class="deals__prices-content-text" data-aos="fade-up" data-aos-duration="1000">
                         <div class="deals__prices-content-price">
                             $41,000,000
                         </div>
@@ -226,10 +227,10 @@
                     </div>
                 </div>
 
-                <div class="deals__prices-content deals__prices-content--height">
+                <div class="deals__prices-content deals__prices-content--height" data-aos="fade-up" data-aos-duration="800">
                     <img src="img/dom_3.png" alt="house" class="deals__prices-content-image">
 
-                    <div class="deals__prices-content-text">
+                    <div class="deals__prices-content-text" data-aos="fade-up" data-aos-duration="1000">
                         <div class="deals__prices-content-price">
                             $41,000,000
                         </div>
@@ -242,10 +243,10 @@
                     </div>
                 </div>
 
-                <div class="deals__prices-content deals__prices-content--height">
+                <div class="deals__prices-content deals__prices-content--height" data-aos="fade-up" data-aos-duration="800">
                     <img src="img/dom_5.png" alt="house" class="deals__prices-content-image">
 
-                    <div class="deals__prices-content-text">
+                    <div class="deals__prices-content-text" data-aos="fade-up" data-aos-duration="1000">
                         <div class="deals__prices-content-price">
                             $41,000,000
                         </div>
@@ -258,10 +259,10 @@
                     </div>
                 </div>
 
-                <div class="deals__prices-content deals__prices-content--height">
+                <div class="deals__prices-content deals__prices-content--height" data-aos="fade-up" data-aos-duration="800">
                     <img src="img/dom_6.png" alt="house" class="deals__prices-content-image">
 
-                    <div class="deals__prices-content-text">
+                    <div class="deals__prices-content-text" data-aos="fade-up" data-aos-duration="1000">
                         <div class="deals__prices-content-price">
                             $41,000,000
                         </div>
@@ -274,10 +275,10 @@
                     </div>
                 </div>
 
-                <div class="deals__prices-content deals__prices-content--height">
+                <div class="deals__prices-content deals__prices-content--height" data-aos="fade-up" data-aos-duration="800">
                     <img src="img/dom_1.png" alt="house" class="deals__prices-content-image">
 
-                    <div class="deals__prices-content-text">
+                    <div class="deals__prices-content-text" data-aos="fade-up" data-aos-duration="1000">
                         <div class="deals__prices-content-price">
                             $41,000,000
                         </div>
@@ -290,10 +291,10 @@
                     </div>
                 </div>
 
-                <div class="deals__prices-content deals__prices-content--height">
+                <div class="deals__prices-content deals__prices-content--height" data-aos="fade-up" data-aos-duration="800">
                     <img src="img/dom_7.png" alt="house" class="deals__prices-content-image">
 
-                    <div class="deals__prices-content-text">
+                    <div class="deals__prices-content-text" data-aos="fade-up" data-aos-duration="1000">
                         <div class="deals__prices-content-price">
                             $41,000,000
                         </div>
@@ -306,10 +307,10 @@
                     </div>
                 </div>
 
-                <div class="deals__prices-content deals__prices-content--height">
+                <div class="deals__prices-content deals__prices-content--height" data-aos="fade-up" data-aos-duration="800">
                     <img src="img/dom_8.png" alt="house" class="deals__prices-content-image">
 
-                    <div class="deals__prices-content-text">
+                    <div class="deals__prices-content-text" data-aos="fade-up" data-aos-duration="1000">
                         <div class="deals__prices-content-price">
                             $41,000,000
                         </div>
@@ -322,10 +323,10 @@
                     </div>
                 </div>
 
-                <div class="deals__prices-content deals__prices-content--height">
+                <div class="deals__prices-content deals__prices-content--height" data-aos="fade-up" data-aos-duration="800">
                     <img src="img/dom_4.png" alt="house" class="deals__prices-content-image">
 
-                    <div class="deals__prices-content-text">
+                    <div class="deals__prices-content-text" data-aos="fade-up" data-aos-duration="1000">
                         <div class="deals__prices-content-price">
                             $41,000,000
                         </div>
@@ -338,10 +339,10 @@
                     </div>
                 </div>
 
-                <div class="deals__prices-content deals__prices-content--height">
+                <div class="deals__prices-content deals__prices-content--height" data-aos="fade-up" data-aos-duration="800">
                     <img src="img/dom_2.png" alt="house" class="deals__prices-content-image">
 
-                    <div class="deals__prices-content-text">
+                    <div class="deals__prices-content-text" data-aos="fade-up" data-aos-duration="1000">
                         <div class="deals__prices-content-price">
                             $41,000,000
                         </div>
@@ -354,10 +355,10 @@
                     </div>
                 </div>
 
-                <div class="deals__prices-content deals__prices-content--height">
+                <div class="deals__prices-content deals__prices-content--height" data-aos="fade-up" data-aos-duration="800">
                     <img src="img/dom_5.png" alt="house" class="deals__prices-content-image">
 
-                    <div class="deals__prices-content-text">
+                    <div class="deals__prices-content-text" data-aos="fade-up" data-aos-duration="1000">
                         <div class="deals__prices-content-price">
                             $41,000,000
                         </div>
@@ -373,10 +374,10 @@
 
             <!-------------------PAGE 02 ------------------->
             <div class="deals__prices deals__prices--width">
-                <div class="deals__prices-content deals__prices-content--height">
+                <div class="deals__prices-content deals__prices-content--height" data-aos="fade-up" data-aos-duration="800">
                     <img src="img/dom_1.png" alt="house" class="deals__prices-content-image">
 
-                    <div class="deals__prices-content-text">
+                    <div class="deals__prices-content-text" data-aos="fade-up" data-aos-duration="1000">
                         <div class="deals__prices-content-price">
                             $41,000,000
                         </div>
@@ -389,10 +390,10 @@
                     </div>
                 </div>
 
-                <div class="deals__prices-content deals__prices-content--height">
+                <div class="deals__prices-content deals__prices-content--height" data-aos="fade-up" data-aos-duration="800">
                     <img src="img/dom_5.png" alt="house" class="deals__prices-content-image">
 
-                    <div class="deals__prices-content-text">
+                    <div class="deals__prices-content-text" data-aos="fade-up" data-aos-duration="1000">
                         <div class="deals__prices-content-price">
                             $41,000,000
                         </div>
@@ -405,10 +406,10 @@
                     </div>
                 </div>
 
-                <div class="deals__prices-content deals__prices-content--height">
+                <div class="deals__prices-content deals__prices-content--height" data-aos="fade-up" data-aos-duration="800">
                     <img src="img/dom_7.png" alt="house" class="deals__prices-content-image">
 
-                    <div class="deals__prices-content-text">
+                    <div class="deals__prices-content-text" data-aos="fade-up" data-aos-duration="1000">
                         <div class="deals__prices-content-price">
                             $41,000,000
                         </div>
@@ -421,10 +422,10 @@
                     </div>
                 </div>
 
-                <div class="deals__prices-content deals__prices-content--height">
+                <div class="deals__prices-content deals__prices-content--height" data-aos="fade-up" data-aos-duration="800">
                     <img src="img/dom_1.png" alt="house" class="deals__prices-content-image">
 
-                    <div class="deals__prices-content-text">
+                    <div class="deals__prices-content-text" data-aos="fade-up" data-aos-duration="1000">
                         <div class="deals__prices-content-price">
                             $41,000,000
                         </div>
@@ -437,10 +438,10 @@
                     </div>
                 </div>
 
-                <div class="deals__prices-content deals__prices-content--height">
+                <div class="deals__prices-content deals__prices-content--height" data-aos="fade-up" data-aos-duration="800">
                     <img src="img/dom_9.png" alt="house" class="deals__prices-content-image">
 
-                    <div class="deals__prices-content-text">
+                    <div class="deals__prices-content-text" data-aos="fade-up" data-aos-duration="1000">
                         <div class="deals__prices-content-price">
                             $41,000,000
                         </div>
@@ -453,10 +454,10 @@
                     </div>
                 </div>
 
-                <div class="deals__prices-content deals__prices-content--height">
+                <div class="deals__prices-content deals__prices-content--height" data-aos="fade-up" data-aos-duration="800">
                     <img src="img/dom_5.png" alt="house" class="deals__prices-content-image">
 
-                    <div class="deals__prices-content-text">
+                    <div class="deals__prices-content-text" data-aos="fade-up" data-aos-duration="1000">
                         <div class="deals__prices-content-price">
                             $41,000,000
                         </div>
@@ -469,10 +470,10 @@
                     </div>
                 </div>
 
-                <div class="deals__prices-content deals__prices-content--height">
+                <div class="deals__prices-content deals__prices-content--height" data-aos="fade-up" data-aos-duration="800">
                     <img src="img/dom_7.png" alt="house" class="deals__prices-content-image">
 
-                    <div class="deals__prices-content-text">
+                    <div class="deals__prices-content-text" data-aos="fade-up" data-aos-duration="1000">
                         <div class="deals__prices-content-price">
                             $41,000,000
                         </div>
@@ -485,10 +486,10 @@
                     </div>
                 </div>
 
-                <div class="deals__prices-content deals__prices-content--height">
+                <div class="deals__prices-content deals__prices-content--height" data-aos="fade-up" data-aos-duration="800">
                     <img src="img/dom_9.png" alt="house" class="deals__prices-content-image">
 
-                    <div class="deals__prices-content-text">
+                    <div class="deals__prices-content-text" data-aos="fade-up" data-aos-duration="1000">
                         <div class="deals__prices-content-price">
                             $41,000,000
                         </div>
@@ -501,10 +502,10 @@
                     </div>
                 </div>
 
-                <div class="deals__prices-content deals__prices-content--height">
+                <div class="deals__prices-content deals__prices-content--height" data-aos="fade-up" data-aos-duration="800">
                     <img src="img/dom_5.png" alt="house" class="deals__prices-content-image">
 
-                    <div class="deals__prices-content-text">
+                    <div class="deals__prices-content-text" data-aos="fade-up" data-aos-duration="1000">
                         <div class="deals__prices-content-price">
                             $41,000,000
                         </div>
@@ -517,10 +518,10 @@
                     </div>
                 </div>
 
-                <div class="deals__prices-content deals__prices-content--height">
+                <div class="deals__prices-content deals__prices-content--height" data-aos="fade-up" data-aos-duration="800">
                     <img src="img/dom_7.png" alt="house" class="deals__prices-content-image">
 
-                    <div class="deals__prices-content-text">
+                    <div class="deals__prices-content-text" data-aos="fade-up" data-aos-duration="1000">
                         <div class="deals__prices-content-price">
                             $41,000,000
                         </div>
@@ -533,10 +534,10 @@
                     </div>
                 </div>
 
-                <div class="deals__prices-content deals__prices-content--height">
+                <div class="deals__prices-content deals__prices-content--height" data-aos="fade-up" data-aos-duration="800">
                     <img src="img/dom_1.png" alt="house" class="deals__prices-content-image">
 
-                    <div class="deals__prices-content-text">
+                    <div class="deals__prices-content-text" data-aos="fade-up" data-aos-duration="1000">
                         <div class="deals__prices-content-price">
                             $41,000,000
                         </div>
@@ -549,10 +550,10 @@
                     </div>
                 </div>
 
-                <div class="deals__prices-content deals__prices-content--height">
+                <div class="deals__prices-content deals__prices-content--height" data-aos="fade-up" data-aos-duration="800">
                     <img src="img/dom_1.png" alt="house" class="deals__prices-content-image">
 
-                    <div class="deals__prices-content-text">
+                    <div class="deals__prices-content-text" data-aos="fade-up" data-aos-duration="1000">
                         <div class="deals__prices-content-price">
                             $41,000,000
                         </div>
@@ -571,7 +572,7 @@
                 <div class="deals__prices-content">
                     <img src="img/dom_1.png" alt="house" class="deals__prices-content-image">
 
-                    <div class="deals__prices-content-text">
+                    <div class="deals__prices-content-text" data-aos="fade-up" data-aos-duration="1000">
                         <div class="deals__prices-content-price">
                             $48,000,000
                         </div>
@@ -584,10 +585,10 @@
                     </div>
                 </div>
 
-                <div class="deals__prices-content deals__prices-content--height">
+                <div class="deals__prices-content deals__prices-content--height" data-aos="fade-up" data-aos-duration="800">
                     <img src="img/dom_2.png" alt="house" class="deals__prices-content-image">
 
-                    <div class="deals__prices-content-text">
+                    <div class="deals__prices-content-text" data-aos="fade-up" data-aos-duration="1000">
                         <div class="deals__prices-content-price">
                             $41,000,000
                         </div>
@@ -600,10 +601,10 @@
                     </div>
                 </div>
 
-                <div class="deals__prices-content deals__prices-content--height">
+                <div class="deals__prices-content deals__prices-content--height" data-aos="fade-up" data-aos-duration="800">
                     <img src="img/dom_3.png" alt="house" class="deals__prices-content-image">
 
-                    <div class="deals__prices-content-text">
+                    <div class="deals__prices-content-text" data-aos="fade-up" data-aos-duration="1000">
                         <div class="deals__prices-content-price">
                             $41,000,000
                         </div>
@@ -616,10 +617,10 @@
                     </div>
                 </div>
 
-                <div class="deals__prices-content deals__prices-content--height">
+                <div class="deals__prices-content deals__prices-content--height" data-aos="fade-up" data-aos-duration="800">
                     <img src="img/dom_4.png" alt="house" class="deals__prices-content-image">
 
-                    <div class="deals__prices-content-text">
+                    <div class="deals__prices-content-text" data-aos="fade-up" data-aos-duration="1000">
                         <div class="deals__prices-content-price">
                             $41,000,000
                         </div>
@@ -632,10 +633,10 @@
                     </div>
                 </div>
 
-                <div class="deals__prices-content deals__prices-content--height">
+                <div class="deals__prices-content deals__prices-content--height" data-aos="fade-up" data-aos-duration="800">
                     <img src="img/dom_5.png" alt="house" class="deals__prices-content-image">
 
-                    <div class="deals__prices-content-text">
+                    <div class="deals__prices-content-text" data-aos="fade-up" data-aos-duration="1000">
                         <div class="deals__prices-content-price">
                             $41,000,000
                         </div>
@@ -648,10 +649,10 @@
                     </div>
                 </div>
 
-                <div class="deals__prices-content deals__prices-content--height">
+                <div class="deals__prices-content deals__prices-content--height" data-aos="fade-up" data-aos-duration="800">
                     <img src="img/dom_6.png" alt="house" class="deals__prices-content-image">
 
-                    <div class="deals__prices-content-text">
+                    <div class="deals__prices-content-text" data-aos="fade-up" data-aos-duration="1000">
                         <div class="deals__prices-content-price">
                             $41,000,000
                         </div>
@@ -664,10 +665,10 @@
                     </div>
                 </div>
 
-                <div class="deals__prices-content deals__prices-content--height">
+                <div class="deals__prices-content deals__prices-content--height" data-aos="fade-up" data-aos-duration="800">
                     <img src="img/dom_7.png" alt="house" class="deals__prices-content-image">
 
-                    <div class="deals__prices-content-text">
+                    <div class="deals__prices-content-text" data-aos="fade-up" data-aos-duration="1000">
                         <div class="deals__prices-content-price">
                             $41,000,000
                         </div>
@@ -680,10 +681,10 @@
                     </div>
                 </div>
 
-                <div class="deals__prices-content deals__prices-content--height">
+                <div class="deals__prices-content deals__prices-content--height" data-aos="fade-up" data-aos-duration="800">
                     <img src="img/dom_8.png" alt="house" class="deals__prices-content-image">
 
-                    <div class="deals__prices-content-text">
+                    <div class="deals__prices-content-text" data-aos="fade-up" data-aos-duration="1000">
                         <div class="deals__prices-content-price">
                             $41,000,000
                         </div>
@@ -696,10 +697,10 @@
                     </div>
                 </div>
 
-                <div class="deals__prices-content deals__prices-content--height">
+                <div class="deals__prices-content deals__prices-content--height" data-aos="fade-up" data-aos-duration="800">
                     <img src="img/dom_9.png" alt="house" class="deals__prices-content-image">
 
-                    <div class="deals__prices-content-text">
+                    <div class="deals__prices-content-text" data-aos="fade-up" data-aos-duration="1000">
                         <div class="deals__prices-content-price">
                             $41,000,000
                         </div>
@@ -712,10 +713,10 @@
                     </div>
                 </div>
 
-                <div class="deals__prices-content deals__prices-content--height">
+                <div class="deals__prices-content deals__prices-content--height" data-aos="fade-up" data-aos-duration="800">
                     <img src="img/dom_1.png" alt="house" class="deals__prices-content-image">
 
-                    <div class="deals__prices-content-text">
+                    <div class="deals__prices-content-text" data-aos="fade-up" data-aos-duration="1000">
                         <div class="deals__prices-content-price">
                             $41,000,000
                         </div>
@@ -728,10 +729,10 @@
                     </div>
                 </div>
 
-                <div class="deals__prices-content deals__prices-content--height">
+                <div class="deals__prices-content deals__prices-content--height" data-aos="fade-up" data-aos-duration="800">
                     <img src="img/dom_2.png" alt="house" class="deals__prices-content-image">
 
-                    <div class="deals__prices-content-text">
+                    <div class="deals__prices-content-text" data-aos="fade-up" data-aos-duration="1000">
                         <div class="deals__prices-content-price">
                             $41,000,000
                         </div>
@@ -744,10 +745,10 @@
                     </div>
                 </div>
 
-                <div class="deals__prices-content deals__prices-content--height">
+                <div class="deals__prices-content deals__prices-content--height" data-aos="fade-up" data-aos-duration="800">
                     <img src="img/dom_3.png" alt="house" class="deals__prices-content-image">
 
-                    <div class="deals__prices-content-text">
+                    <div class="deals__prices-content-text" data-aos="fade-up" data-aos-duration="1000">
                         <div class="deals__prices-content-price">
                             $41,000,000
                         </div>
@@ -766,7 +767,7 @@
                 <div class="deals__prices-content">
                     <img src="img/dom_9.png" alt="house" class="deals__prices-content-image">
 
-                    <div class="deals__prices-content-text">
+                    <div class="deals__prices-content-text" data-aos="fade-up" data-aos-duration="1000">
                         <div class="deals__prices-content-price">
                             $48,000,000
                         </div>
@@ -779,10 +780,10 @@
                     </div>
                 </div>
 
-                <div class="deals__prices-content deals__prices-content--height">
+                <div class="deals__prices-content deals__prices-content--height" data-aos="fade-up" data-aos-duration="800">
                     <img src="img/dom_8.png" alt="house" class="deals__prices-content-image">
 
-                    <div class="deals__prices-content-text">
+                    <div class="deals__prices-content-text" data-aos="fade-up" data-aos-duration="1000">
                         <div class="deals__prices-content-price">
                             $41,000,000
                         </div>
@@ -795,10 +796,10 @@
                     </div>
                 </div>
 
-                <div class="deals__prices-content deals__prices-content--height">
+                <div class="deals__prices-content deals__prices-content--height" data-aos="fade-up" data-aos-duration="800">
                     <img src="img/dom_7.png" alt="house" class="deals__prices-content-image">
 
-                    <div class="deals__prices-content-text">
+                    <div class="deals__prices-content-text" data-aos="fade-up" data-aos-duration="1000">
                         <div class="deals__prices-content-price">
                             $41,000,000
                         </div>
@@ -811,10 +812,10 @@
                     </div>
                 </div>
 
-                <div class="deals__prices-content deals__prices-content--height">
+                <div class="deals__prices-content deals__prices-content--height" data-aos="fade-up" data-aos-duration="800">
                     <img src="img/dom_6.png" alt="house" class="deals__prices-content-image">
 
-                    <div class="deals__prices-content-text">
+                    <div class="deals__prices-content-text" data-aos="fade-up" data-aos-duration="1000">
                         <div class="deals__prices-content-price">
                             $41,000,000
                         </div>
@@ -827,10 +828,10 @@
                     </div>
                 </div>
 
-                <div class="deals__prices-content deals__prices-content--height">
+                <div class="deals__prices-content deals__prices-content--height" data-aos="fade-up" data-aos-duration="800">
                     <img src="img/dom_5.png" alt="house" class="deals__prices-content-image">
 
-                    <div class="deals__prices-content-text">
+                    <div class="deals__prices-content-text" data-aos="fade-up" data-aos-duration="1000">
                         <div class="deals__prices-content-price">
                             $41,000,000
                         </div>
@@ -843,10 +844,10 @@
                     </div>
                 </div>
 
-                <div class="deals__prices-content deals__prices-content--height">
+                <div class="deals__prices-content deals__prices-content--height" data-aos="fade-up" data-aos-duration="800">
                     <img src="img/dom_4.png" alt="house" class="deals__prices-content-image">
 
-                    <div class="deals__prices-content-text">
+                    <div class="deals__prices-content-text" data-aos="fade-up" data-aos-duration="1000">
                         <div class="deals__prices-content-price">
                             $41,000,000
                         </div>
@@ -859,10 +860,10 @@
                     </div>
                 </div>
 
-                <div class="deals__prices-content deals__prices-content--height">
+                <div class="deals__prices-content deals__prices-content--height" data-aos="fade-up" data-aos-duration="800">
                     <img src="img/dom_3.png" alt="house" class="deals__prices-content-image">
 
-                    <div class="deals__prices-content-text">
+                    <div class="deals__prices-content-text" data-aos="fade-up" data-aos-duration="1000">
                         <div class="deals__prices-content-price">
                             $41,000,000
                         </div>
@@ -875,10 +876,10 @@
                     </div>
                 </div>
 
-                <div class="deals__prices-content deals__prices-content--height">
+                <div class="deals__prices-content deals__prices-content--height" data-aos="fade-up" data-aos-duration="800">
                     <img src="img/dom_2.png" alt="house" class="deals__prices-content-image">
 
-                    <div class="deals__prices-content-text">
+                    <div class="deals__prices-content-text" data-aos="fade-up" data-aos-duration="1000">
                         <div class="deals__prices-content-price">
                             $41,000,000
                         </div>
@@ -891,10 +892,10 @@
                     </div>
                 </div>
 
-                <div class="deals__prices-content deals__prices-content--height">
+                <div class="deals__prices-content deals__prices-content--height" data-aos="fade-up" data-aos-duration="800">
                     <img src="img/dom_1.png" alt="house" class="deals__prices-content-image">
 
-                    <div class="deals__prices-content-text">
+                    <div class="deals__prices-content-text" data-aos="fade-up" data-aos-duration="1000">
                         <div class="deals__prices-content-price">
                             $41,000,000
                         </div>
@@ -907,10 +908,10 @@
                     </div>
                 </div>
 
-                <div class="deals__prices-content deals__prices-content--height">
+                <div class="deals__prices-content deals__prices-content--height" data-aos="fade-up" data-aos-duration="800">
                     <img src="img/dom_9.png" alt="house" class="deals__prices-content-image">
 
-                    <div class="deals__prices-content-text">
+                    <div class="deals__prices-content-text" data-aos="fade-up" data-aos-duration="1000">
                         <div class="deals__prices-content-price">
                             $41,000,000
                         </div>
@@ -923,10 +924,10 @@
                     </div>
                 </div>
 
-                <div class="deals__prices-content deals__prices-content--height">
+                <div class="deals__prices-content deals__prices-content--height" data-aos="fade-up" data-aos-duration="800">
                     <img src="img/dom_8.png" alt="house" class="deals__prices-content-image">
 
-                    <div class="deals__prices-content-text">
+                    <div class="deals__prices-content-text" data-aos="fade-up" data-aos-duration="1000">
                         <div class="deals__prices-content-price">
                             $41,000,000
                         </div>
@@ -939,10 +940,10 @@
                     </div>
                 </div>
 
-                <div class="deals__prices-content deals__prices-content--height">
+                <div class="deals__prices-content deals__prices-content--height" data-aos="fade-up" data-aos-duration="800">
                     <img src="img/dom_7.png" alt="house" class="deals__prices-content-image">
 
-                    <div class="deals__prices-content-text">
+                    <div class="deals__prices-content-text" data-aos="fade-up" data-aos-duration="1000">
                         <div class="deals__prices-content-price">
                             $41,000,000
                         </div>
@@ -961,7 +962,7 @@
                 <div class="deals__prices-content">
                     <img src="img/dom_1.png" alt="house" class="deals__prices-content-image">
 
-                    <div class="deals__prices-content-text">
+                    <div class="deals__prices-content-text" data-aos="fade-up" data-aos-duration="1000">
                         <div class="deals__prices-content-price">
                             $48,000,000
                         </div>
@@ -974,10 +975,10 @@
                     </div>
                 </div>
 
-                <div class="deals__prices-content deals__prices-content--height">
+                <div class="deals__prices-content deals__prices-content--height" data-aos="fade-up" data-aos-duration="800">
                     <img src="img/dom_3.png" alt="house" class="deals__prices-content-image">
 
-                    <div class="deals__prices-content-text">
+                    <div class="deals__prices-content-text" data-aos="fade-up" data-aos-duration="1000">
                         <div class="deals__prices-content-price">
                             $41,000,000
                         </div>
@@ -990,10 +991,10 @@
                     </div>
                 </div>
 
-                <div class="deals__prices-content deals__prices-content--height">
+                <div class="deals__prices-content deals__prices-content--height" data-aos="fade-up" data-aos-duration="800">
                     <img src="img/dom_5.png" alt="house" class="deals__prices-content-image">
 
-                    <div class="deals__prices-content-text">
+                    <div class="deals__prices-content-text" data-aos="fade-up" data-aos-duration="1000">
                         <div class="deals__prices-content-price">
                             $41,000,000
                         </div>
@@ -1006,10 +1007,10 @@
                     </div>
                 </div>
 
-                <div class="deals__prices-content deals__prices-content--height">
+                <div class="deals__prices-content deals__prices-content--height" data-aos="fade-up" data-aos-duration="800">
                     <img src="img/dom_7.png" alt="house" class="deals__prices-content-image">
 
-                    <div class="deals__prices-content-text">
+                    <div class="deals__prices-content-text" data-aos="fade-up" data-aos-duration="1000">
                         <div class="deals__prices-content-price">
                             $41,000,000
                         </div>
@@ -1022,10 +1023,10 @@
                     </div>
                 </div>
 
-                <div class="deals__prices-content deals__prices-content--height">
+                <div class="deals__prices-content deals__prices-content--height" data-aos="fade-up" data-aos-duration="800">
                     <img src="img/dom_9.png" alt="house" class="deals__prices-content-image">
 
-                    <div class="deals__prices-content-text">
+                    <div class="deals__prices-content-text" data-aos="fade-up" data-aos-duration="1000">
                         <div class="deals__prices-content-price">
                             $41,000,000
                         </div>
@@ -1038,10 +1039,10 @@
                     </div>
                 </div>
 
-                <div class="deals__prices-content deals__prices-content--height">
+                <div class="deals__prices-content deals__prices-content--height" data-aos="fade-up" data-aos-duration="800">
                     <img src="img/dom_1.png" alt="house" class="deals__prices-content-image">
 
-                    <div class="deals__prices-content-text">
+                    <div class="deals__prices-content-text" data-aos="fade-up" data-aos-duration="1000">
                         <div class="deals__prices-content-price">
                             $41,000,000
                         </div>
@@ -1054,10 +1055,10 @@
                     </div>
                 </div>
 
-                <div class="deals__prices-content deals__prices-content--height">
+                <div class="deals__prices-content deals__prices-content--height" data-aos="fade-up" data-aos-duration="800">
                     <img src="img/dom_3.png" alt="house" class="deals__prices-content-image">
 
-                    <div class="deals__prices-content-text">
+                    <div class="deals__prices-content-text" data-aos="fade-up" data-aos-duration="1000">
                         <div class="deals__prices-content-price">
                             $41,000,000
                         </div>
@@ -1070,10 +1071,10 @@
                     </div>
                 </div>
 
-                <div class="deals__prices-content deals__prices-content--height">
+                <div class="deals__prices-content deals__prices-content--height" data-aos="fade-up" data-aos-duration="800">
                     <img src="img/dom_5.png" alt="house" class="deals__prices-content-image">
 
-                    <div class="deals__prices-content-text">
+                    <div class="deals__prices-content-text" data-aos="fade-up" data-aos-duration="1000">
                         <div class="deals__prices-content-price">
                             $41,000,000
                         </div>
@@ -1086,10 +1087,10 @@
                     </div>
                 </div>
 
-                <div class="deals__prices-content deals__prices-content--height">
+                <div class="deals__prices-content deals__prices-content--height" data-aos="fade-up" data-aos-duration="800">
                     <img src="img/dom_7.png" alt="house" class="deals__prices-content-image">
 
-                    <div class="deals__prices-content-text">
+                    <div class="deals__prices-content-text" data-aos="fade-up" data-aos-duration="1000">
                         <div class="deals__prices-content-price">
                             $41,000,000
                         </div>
@@ -1102,10 +1103,10 @@
                     </div>
                 </div>
 
-                <div class="deals__prices-content deals__prices-content--height">
+                <div class="deals__prices-content deals__prices-content--height" data-aos="fade-up" data-aos-duration="800">
                     <img src="img/dom_9.png" alt="house" class="deals__prices-content-image">
 
-                    <div class="deals__prices-content-text">
+                    <div class="deals__prices-content-text" data-aos="fade-up" data-aos-duration="1000">
                         <div class="deals__prices-content-price">
                             $41,000,000
                         </div>
@@ -1118,10 +1119,10 @@
                     </div>
                 </div>
 
-                <div class="deals__prices-content deals__prices-content--height">
+                <div class="deals__prices-content deals__prices-content--height" data-aos="fade-up" data-aos-duration="800">
                     <img src="img/dom_1.png" alt="house" class="deals__prices-content-image">
 
-                    <div class="deals__prices-content-text">
+                    <div class="deals__prices-content-text" data-aos="fade-up" data-aos-duration="1000">
                         <div class="deals__prices-content-price">
                             $41,000,000
                         </div>
@@ -1134,10 +1135,10 @@
                     </div>
                 </div>
 
-                <div class="deals__prices-content deals__prices-content--height">
+                <div class="deals__prices-content deals__prices-content--height" data-aos="fade-up" data-aos-duration="800">
                     <img src="img/dom_3.png" alt="house" class="deals__prices-content-image">
 
-                    <div class="deals__prices-content-text">
+                    <div class="deals__prices-content-text" data-aos="fade-up" data-aos-duration="1000">
                         <div class="deals__prices-content-price">
                             $41,000,000
                         </div>
@@ -1156,7 +1157,7 @@
                 <div class="deals__prices-content">
                     <img src="img/dom_9.png" alt="house" class="deals__prices-content-image">
 
-                    <div class="deals__prices-content-text">
+                    <div class="deals__prices-content-text" data-aos="fade-up" data-aos-duration="1000">
                         <div class="deals__prices-content-price">
                             $48,000,000
                         </div>
@@ -1169,10 +1170,10 @@
                     </div>
                 </div>
 
-                <div class="deals__prices-content deals__prices-content--height">
+                <div class="deals__prices-content deals__prices-content--height" data-aos="fade-up" data-aos-duration="800">
                     <img src="img/dom_7.png" alt="house" class="deals__prices-content-image">
 
-                    <div class="deals__prices-content-text">
+                    <div class="deals__prices-content-text" data-aos="fade-up" data-aos-duration="1000">
                         <div class="deals__prices-content-price">
                             $41,000,000
                         </div>
@@ -1185,10 +1186,10 @@
                     </div>
                 </div>
 
-                <div class="deals__prices-content deals__prices-content--height">
+                <div class="deals__prices-content deals__prices-content--height" data-aos="fade-up" data-aos-duration="800">
                     <img src="img/dom_5.png" alt="house" class="deals__prices-content-image">
 
-                    <div class="deals__prices-content-text">
+                    <div class="deals__prices-content-text" data-aos="fade-up" data-aos-duration="1000">
                         <div class="deals__prices-content-price">
                             $41,000,000
                         </div>
@@ -1201,10 +1202,10 @@
                     </div>
                 </div>
 
-                <div class="deals__prices-content deals__prices-content--height">
+                <div class="deals__prices-content deals__prices-content--height" data-aos="fade-up" data-aos-duration="800">
                     <img src="img/dom_3.png" alt="house" class="deals__prices-content-image">
 
-                    <div class="deals__prices-content-text">
+                    <div class="deals__prices-content-text" data-aos="fade-up" data-aos-duration="1000">
                         <div class="deals__prices-content-price">
                             $41,000,000
                         </div>
@@ -1217,10 +1218,10 @@
                     </div>
                 </div>
 
-                <div class="deals__prices-content deals__prices-content--height">
+                <div class="deals__prices-content deals__prices-content--height" data-aos="fade-up" data-aos-duration="800">
                     <img src="img/dom_1.png" alt="house" class="deals__prices-content-image">
 
-                    <div class="deals__prices-content-text">
+                    <div class="deals__prices-content-text" data-aos="fade-up" data-aos-duration="1000">
                         <div class="deals__prices-content-price">
                             $41,000,000
                         </div>
@@ -1233,10 +1234,10 @@
                     </div>
                 </div>
 
-                <div class="deals__prices-content deals__prices-content--height">
+                <div class="deals__prices-content deals__prices-content--height" data-aos="fade-up" data-aos-duration="800">
                     <img src="img/dom_9.png" alt="house" class="deals__prices-content-image">
 
-                    <div class="deals__prices-content-text">
+                    <div class="deals__prices-content-text" data-aos="fade-up" data-aos-duration="1000">
                         <div class="deals__prices-content-price">
                             $41,000,000
                         </div>
@@ -1249,10 +1250,10 @@
                     </div>
                 </div>
 
-                <div class="deals__prices-content deals__prices-content--height">
+                <div class="deals__prices-content deals__prices-content--height" data-aos="fade-up" data-aos-duration="800">
                     <img src="img/dom_7.png" alt="house" class="deals__prices-content-image">
 
-                    <div class="deals__prices-content-text">
+                    <div class="deals__prices-content-text" data-aos="fade-up" data-aos-duration="1000">
                         <div class="deals__prices-content-price">
                             $41,000,000
                         </div>
@@ -1265,10 +1266,10 @@
                     </div>
                 </div>
 
-                <div class="deals__prices-content deals__prices-content--height">
+                <div class="deals__prices-content deals__prices-content--height" data-aos="fade-up" data-aos-duration="800">
                     <img src="img/dom_5.png" alt="house" class="deals__prices-content-image">
 
-                    <div class="deals__prices-content-text">
+                    <div class="deals__prices-content-text" data-aos="fade-up" data-aos-duration="1000">
                         <div class="deals__prices-content-price">
                             $41,000,000
                         </div>
@@ -1281,10 +1282,10 @@
                     </div>
                 </div>
 
-                <div class="deals__prices-content deals__prices-content--height">
+                <div class="deals__prices-content deals__prices-content--height" data-aos="fade-up" data-aos-duration="800">
                     <img src="img/dom_3.png" alt="house" class="deals__prices-content-image">
 
-                    <div class="deals__prices-content-text">
+                    <div class="deals__prices-content-text" data-aos="fade-up" data-aos-duration="1000">
                         <div class="deals__prices-content-price">
                             $41,000,000
                         </div>
@@ -1297,10 +1298,10 @@
                     </div>
                 </div>
 
-                <div class="deals__prices-content deals__prices-content--height">
+                <div class="deals__prices-content deals__prices-content--height" data-aos="fade-up" data-aos-duration="800">
                     <img src="img/dom_1.png" alt="house" class="deals__prices-content-image">
 
-                    <div class="deals__prices-content-text">
+                    <div class="deals__prices-content-text" data-aos="fade-up" data-aos-duration="1000">
                         <div class="deals__prices-content-price">
                             $41,000,000
                         </div>
@@ -1313,10 +1314,10 @@
                     </div>
                 </div>
 
-                <div class="deals__prices-content deals__prices-content--height">
+                <div class="deals__prices-content deals__prices-content--height" data-aos="fade-up" data-aos-duration="800">
                     <img src="img/dom_9.png" alt="house" class="deals__prices-content-image">
 
-                    <div class="deals__prices-content-text">
+                    <div class="deals__prices-content-text" data-aos="fade-up" data-aos-duration="1000">
                         <div class="deals__prices-content-price">
                             $41,000,000
                         </div>
@@ -1329,10 +1330,10 @@
                     </div>
                 </div>
 
-                <div class="deals__prices-content deals__prices-content--height">
+                <div class="deals__prices-content deals__prices-content--height" data-aos="fade-up" data-aos-duration="800">
                     <img src="img/dom_7.png" alt="house" class="deals__prices-content-image">
 
-                    <div class="deals__prices-content-text">
+                    <div class="deals__prices-content-text" data-aos="fade-up" data-aos-duration="1000">
                         <div class="deals__prices-content-price">
                             $41,000,000
                         </div>
@@ -1351,7 +1352,7 @@
                 <div class="deals__prices-content">
                     <img src="img/dom_2.png" alt="house" class="deals__prices-content-image">
 
-                    <div class="deals__prices-content-text">
+                    <div class="deals__prices-content-text" data-aos="fade-up" data-aos-duration="1000">
                         <div class="deals__prices-content-price">
                             $48,000,000
                         </div>
@@ -1364,10 +1365,10 @@
                     </div>
                 </div>
 
-                <div class="deals__prices-content deals__prices-content--height">
+                <div class="deals__prices-content deals__prices-content--height" data-aos="fade-up" data-aos-duration="800">
                     <img src="img/dom_4.png" alt="house" class="deals__prices-content-image">
 
-                    <div class="deals__prices-content-text">
+                    <div class="deals__prices-content-text" data-aos="fade-up" data-aos-duration="1000">
                         <div class="deals__prices-content-price">
                             $41,000,000
                         </div>
@@ -1380,10 +1381,10 @@
                     </div>
                 </div>
 
-                <div class="deals__prices-content deals__prices-content--height">
+                <div class="deals__prices-content deals__prices-content--height" data-aos="fade-up" data-aos-duration="800">
                     <img src="img/dom_6.png" alt="house" class="deals__prices-content-image">
 
-                    <div class="deals__prices-content-text">
+                    <div class="deals__prices-content-text" data-aos="fade-up" data-aos-duration="1000">
                         <div class="deals__prices-content-price">
                             $41,000,000
                         </div>
@@ -1396,10 +1397,10 @@
                     </div>
                 </div>
 
-                <div class="deals__prices-content deals__prices-content--height">
+                <div class="deals__prices-content deals__prices-content--height" data-aos="fade-up" data-aos-duration="800">
                     <img src="img/dom_8.png" alt="house" class="deals__prices-content-image">
 
-                    <div class="deals__prices-content-text">
+                    <div class="deals__prices-content-text" data-aos="fade-up" data-aos-duration="1000">
                         <div class="deals__prices-content-price">
                             $41,000,000
                         </div>
@@ -1412,10 +1413,10 @@
                     </div>
                 </div>
 
-                <div class="deals__prices-content deals__prices-content--height">
+                <div class="deals__prices-content deals__prices-content--height" data-aos="fade-up" data-aos-duration="800">
                     <img src="img/dom_2.png" alt="house" class="deals__prices-content-image">
 
-                    <div class="deals__prices-content-text">
+                    <div class="deals__prices-content-text" data-aos="fade-up" data-aos-duration="1000">
                         <div class="deals__prices-content-price">
                             $41,000,000
                         </div>
@@ -1428,10 +1429,10 @@
                     </div>
                 </div>
 
-                <div class="deals__prices-content deals__prices-content--height">
+                <div class="deals__prices-content deals__prices-content--height" data-aos="fade-up" data-aos-duration="800">
                     <img src="img/dom_4.png" alt="house" class="deals__prices-content-image">
 
-                    <div class="deals__prices-content-text">
+                    <div class="deals__prices-content-text" data-aos="fade-up" data-aos-duration="1000">
                         <div class="deals__prices-content-price">
                             $41,000,000
                         </div>
@@ -1444,10 +1445,10 @@
                     </div>
                 </div>
 
-                <div class="deals__prices-content deals__prices-content--height">
+                <div class="deals__prices-content deals__prices-content--height" data-aos="fade-up" data-aos-duration="800">
                     <img src="img/dom_6.png" alt="house" class="deals__prices-content-image">
 
-                    <div class="deals__prices-content-text">
+                    <div class="deals__prices-content-text" data-aos="fade-up" data-aos-duration="1000">
                         <div class="deals__prices-content-price">
                             $41,000,000
                         </div>
@@ -1460,10 +1461,10 @@
                     </div>
                 </div>
 
-                <div class="deals__prices-content deals__prices-content--height">
+                <div class="deals__prices-content deals__prices-content--height" data-aos="fade-up" data-aos-duration="800">
                     <img src="img/dom_8.png" alt="house" class="deals__prices-content-image">
 
-                    <div class="deals__prices-content-text">
+                    <div class="deals__prices-content-text" data-aos="fade-up" data-aos-duration="1000">
                         <div class="deals__prices-content-price">
                             $41,000,000
                         </div>
@@ -1476,10 +1477,10 @@
                     </div>
                 </div>
 
-                <div class="deals__prices-content deals__prices-content--height">
+                <div class="deals__prices-content deals__prices-content--height" data-aos="fade-up" data-aos-duration="800">
                     <img src="img/dom_2.png" alt="house" class="deals__prices-content-image">
 
-                    <div class="deals__prices-content-text">
+                    <div class="deals__prices-content-text" data-aos="fade-up" data-aos-duration="1000">
                         <div class="deals__prices-content-price">
                             $41,000,000
                         </div>
@@ -1492,10 +1493,10 @@
                     </div>
                 </div>
 
-                <div class="deals__prices-content deals__prices-content--height">
+                <div class="deals__prices-content deals__prices-content--height" data-aos="fade-up" data-aos-duration="800">
                     <img src="img/dom_4.png" alt="house" class="deals__prices-content-image">
 
-                    <div class="deals__prices-content-text">
+                    <div class="deals__prices-content-text" data-aos="fade-up" data-aos-duration="1000">
                         <div class="deals__prices-content-price">
                             $41,000,000
                         </div>
@@ -1508,10 +1509,10 @@
                     </div>
                 </div>
 
-                <div class="deals__prices-content deals__prices-content--height">
+                <div class="deals__prices-content deals__prices-content--height" data-aos="fade-up" data-aos-duration="800">
                     <img src="img/dom_6.png" alt="house" class="deals__prices-content-image">
 
-                    <div class="deals__prices-content-text">
+                    <div class="deals__prices-content-text" data-aos="fade-up" data-aos-duration="1000">
                         <div class="deals__prices-content-price">
                             $41,000,000
                         </div>
@@ -1524,10 +1525,10 @@
                     </div>
                 </div>
 
-                <div class="deals__prices-content deals__prices-content--height">
+                <div class="deals__prices-content deals__prices-content--height" data-aos="fade-up" data-aos-duration="800">
                     <img src="img/dom_8.png" alt="house" class="deals__prices-content-image">
 
-                    <div class="deals__prices-content-text">
+                    <div class="deals__prices-content-text" data-aos="fade-up" data-aos-duration="1000">
                         <div class="deals__prices-content-price">
                             $41,000,000
                         </div>
@@ -1546,7 +1547,7 @@
                 <div class="deals__prices-content">
                     <img src="img/dom_8.png" alt="house" class="deals__prices-content-image">
 
-                    <div class="deals__prices-content-text">
+                    <div class="deals__prices-content-text" data-aos="fade-up" data-aos-duration="1000">
                         <div class="deals__prices-content-price">
                             $48,000,000
                         </div>
@@ -1559,10 +1560,10 @@
                     </div>
                 </div>
 
-                <div class="deals__prices-content deals__prices-content--height">
+                <div class="deals__prices-content deals__prices-content--height" data-aos="fade-up" data-aos-duration="800">
                     <img src="img/dom_6.png" alt="house" class="deals__prices-content-image">
 
-                    <div class="deals__prices-content-text">
+                    <div class="deals__prices-content-text" data-aos="fade-up" data-aos-duration="1000">
                         <div class="deals__prices-content-price">
                             $41,000,000
                         </div>
@@ -1575,10 +1576,10 @@
                     </div>
                 </div>
 
-                <div class="deals__prices-content deals__prices-content--height">
+                <div class="deals__prices-content deals__prices-content--height" data-aos="fade-up" data-aos-duration="800">
                     <img src="img/dom_4.png" alt="house" class="deals__prices-content-image">
 
-                    <div class="deals__prices-content-text">
+                    <div class="deals__prices-content-text" data-aos="fade-up" data-aos-duration="1000">
                         <div class="deals__prices-content-price">
                             $41,000,000
                         </div>
@@ -1591,10 +1592,10 @@
                     </div>
                 </div>
 
-                <div class="deals__prices-content deals__prices-content--height">
+                <div class="deals__prices-content deals__prices-content--height" data-aos="fade-up" data-aos-duration="800">
                     <img src="img/dom_2.png" alt="house" class="deals__prices-content-image">
 
-                    <div class="deals__prices-content-text">
+                    <div class="deals__prices-content-text" data-aos="fade-up" data-aos-duration="1000">
                         <div class="deals__prices-content-price">
                             $41,000,000
                         </div>
@@ -1607,10 +1608,10 @@
                     </div>
                 </div>
 
-                <div class="deals__prices-content deals__prices-content--height">
+                <div class="deals__prices-content deals__prices-content--height" data-aos="fade-up" data-aos-duration="800">
                     <img src="img/dom_8.png" alt="house" class="deals__prices-content-image">
 
-                    <div class="deals__prices-content-text">
+                    <div class="deals__prices-content-text" data-aos="fade-up" data-aos-duration="1000">
                         <div class="deals__prices-content-price">
                             $41,000,000
                         </div>
@@ -1623,10 +1624,10 @@
                     </div>
                 </div>
 
-                <div class="deals__prices-content deals__prices-content--height">
+                <div class="deals__prices-content deals__prices-content--height" data-aos="fade-up" data-aos-duration="800">
                     <img src="img/dom_6.png" alt="house" class="deals__prices-content-image">
 
-                    <div class="deals__prices-content-text">
+                    <div class="deals__prices-content-text" data-aos="fade-up" data-aos-duration="1000">
                         <div class="deals__prices-content-price">
                             $41,000,000
                         </div>
@@ -1639,10 +1640,10 @@
                     </div>
                 </div>
 
-                <div class="deals__prices-content deals__prices-content--height">
+                <div class="deals__prices-content deals__prices-content--height" data-aos="fade-up" data-aos-duration="800">
                     <img src="img/dom_4.png" alt="house" class="deals__prices-content-image">
 
-                    <div class="deals__prices-content-text">
+                    <div class="deals__prices-content-text" data-aos="fade-up" data-aos-duration="1000">
                         <div class="deals__prices-content-price">
                             $41,000,000
                         </div>
@@ -1655,10 +1656,10 @@
                     </div>
                 </div>
 
-                <div class="deals__prices-content deals__prices-content--height">
+                <div class="deals__prices-content deals__prices-content--height" data-aos="fade-up" data-aos-duration="800">
                     <img src="img/dom_2.png" alt="house" class="deals__prices-content-image">
 
-                    <div class="deals__prices-content-text">
+                    <div class="deals__prices-content-text" data-aos="fade-up" data-aos-duration="1000">
                         <div class="deals__prices-content-price">
                             $41,000,000
                         </div>
@@ -1671,10 +1672,10 @@
                     </div>
                 </div>
 
-                <div class="deals__prices-content deals__prices-content--height">
+                <div class="deals__prices-content deals__prices-content--height" data-aos="fade-up" data-aos-duration="800">
                     <img src="img/dom_8.png" alt="house" class="deals__prices-content-image">
 
-                    <div class="deals__prices-content-text">
+                    <div class="deals__prices-content-text" data-aos="fade-up" data-aos-duration="1000">
                         <div class="deals__prices-content-price">
                             $41,000,000
                         </div>
@@ -1687,10 +1688,10 @@
                     </div>
                 </div>
 
-                <div class="deals__prices-content deals__prices-content--height">
+                <div class="deals__prices-content deals__prices-content--height" data-aos="fade-up" data-aos-duration="800">
                     <img src="img/dom_6.png" alt="house" class="deals__prices-content-image">
 
-                    <div class="deals__prices-content-text">
+                    <div class="deals__prices-content-text" data-aos="fade-up" data-aos-duration="1000">
                         <div class="deals__prices-content-price">
                             $41,000,000
                         </div>
@@ -1703,10 +1704,10 @@
                     </div>
                 </div>
 
-                <div class="deals__prices-content deals__prices-content--height">
+                <div class="deals__prices-content deals__prices-content--height" data-aos="fade-up" data-aos-duration="800">
                     <img src="img/dom_4.png" alt="house" class="deals__prices-content-image">
 
-                    <div class="deals__prices-content-text">
+                    <div class="deals__prices-content-text" data-aos="fade-up" data-aos-duration="1000">
                         <div class="deals__prices-content-price">
                             $41,000,000
                         </div>
@@ -1719,10 +1720,10 @@
                     </div>
                 </div>
 
-                <div class="deals__prices-content deals__prices-content--height">
+                <div class="deals__prices-content deals__prices-content--height" data-aos="fade-up" data-aos-duration="800">
                     <img src="img/dom_2.png" alt="house" class="deals__prices-content-image">
 
-                    <div class="deals__prices-content-text">
+                    <div class="deals__prices-content-text" data-aos="fade-up" data-aos-duration="1000">
                         <div class="deals__prices-content-price">
                             $41,000,000
                         </div>
@@ -1741,7 +1742,7 @@
                 <div class="deals__prices-content">
                     <img src="img/dom_1.png" alt="house" class="deals__prices-content-image">
 
-                    <div class="deals__prices-content-text">
+                    <div class="deals__prices-content-text" data-aos="fade-up" data-aos-duration="1000">
                         <div class="deals__prices-content-price">
                             $48,000,000
                         </div>
@@ -1754,10 +1755,10 @@
                     </div>
                 </div>
 
-                <div class="deals__prices-content deals__prices-content--height">
+                <div class="deals__prices-content deals__prices-content--height" data-aos="fade-up" data-aos-duration="800">
                     <img src="img/dom_2.png" alt="house" class="deals__prices-content-image">
 
-                    <div class="deals__prices-content-text">
+                    <div class="deals__prices-content-text" data-aos="fade-up" data-aos-duration="1000">
                         <div class="deals__prices-content-price">
                             $41,000,000
                         </div>
@@ -1770,10 +1771,10 @@
                     </div>
                 </div>
 
-                <div class="deals__prices-content deals__prices-content--height">
+                <div class="deals__prices-content deals__prices-content--height" data-aos="fade-up" data-aos-duration="800">
                     <img src="img/dom_3.png" alt="house" class="deals__prices-content-image">
 
-                    <div class="deals__prices-content-text">
+                    <div class="deals__prices-content-text" data-aos="fade-up" data-aos-duration="1000">
                         <div class="deals__prices-content-price">
                             $41,000,000
                         </div>
@@ -1786,10 +1787,10 @@
                     </div>
                 </div>
 
-                <div class="deals__prices-content deals__prices-content--height">
+                <div class="deals__prices-content deals__prices-content--height" data-aos="fade-up" data-aos-duration="800">
                     <img src="img/dom_4.png" alt="house" class="deals__prices-content-image">
 
-                    <div class="deals__prices-content-text">
+                    <div class="deals__prices-content-text" data-aos="fade-up" data-aos-duration="1000">
                         <div class="deals__prices-content-price">
                             $41,000,000
                         </div>
@@ -1802,10 +1803,10 @@
                     </div>
                 </div>
 
-                <div class="deals__prices-content deals__prices-content--height">
+                <div class="deals__prices-content deals__prices-content--height" data-aos="fade-up" data-aos-duration="800">
                     <img src="img/dom_9.png" alt="house" class="deals__prices-content-image">
 
-                    <div class="deals__prices-content-text">
+                    <div class="deals__prices-content-text" data-aos="fade-up" data-aos-duration="1000">
                         <div class="deals__prices-content-price">
                             $41,000,000
                         </div>
@@ -1818,10 +1819,10 @@
                     </div>
                 </div>
 
-                <div class="deals__prices-content deals__prices-content--height">
+                <div class="deals__prices-content deals__prices-content--height" data-aos="fade-up" data-aos-duration="800">
                     <img src="img/dom_8.png" alt="house" class="deals__prices-content-image">
 
-                    <div class="deals__prices-content-text">
+                    <div class="deals__prices-content-text" data-aos="fade-up" data-aos-duration="1000">
                         <div class="deals__prices-content-price">
                             $41,000,000
                         </div>
@@ -1834,10 +1835,10 @@
                     </div>
                 </div>
 
-                <div class="deals__prices-content deals__prices-content--height">
+                <div class="deals__prices-content deals__prices-content--height" data-aos="fade-up" data-aos-duration="800">
                     <img src="img/dom_7.png" alt="house" class="deals__prices-content-image">
 
-                    <div class="deals__prices-content-text">
+                    <div class="deals__prices-content-text" data-aos="fade-up" data-aos-duration="1000">
                         <div class="deals__prices-content-price">
                             $41,000,000
                         </div>
@@ -1850,10 +1851,10 @@
                     </div>
                 </div>
 
-                <div class="deals__prices-content deals__prices-content--height">
+                <div class="deals__prices-content deals__prices-content--height" data-aos="fade-up" data-aos-duration="800">
                     <img src="img/dom_6.png" alt="house" class="deals__prices-content-image">
 
-                    <div class="deals__prices-content-text">
+                    <div class="deals__prices-content-text" data-aos="fade-up" data-aos-duration="1000">
                         <div class="deals__prices-content-price">
                             $41,000,000
                         </div>
@@ -1866,10 +1867,10 @@
                     </div>
                 </div>
 
-                <div class="deals__prices-content deals__prices-content--height">
+                <div class="deals__prices-content deals__prices-content--height" data-aos="fade-up" data-aos-duration="800">
                     <img src="img/dom_1.png" alt="house" class="deals__prices-content-image">
 
-                    <div class="deals__prices-content-text">
+                    <div class="deals__prices-content-text" data-aos="fade-up" data-aos-duration="1000">
                         <div class="deals__prices-content-price">
                             $41,000,000
                         </div>
@@ -1882,10 +1883,10 @@
                     </div>
                 </div>
 
-                <div class="deals__prices-content deals__prices-content--height">
+                <div class="deals__prices-content deals__prices-content--height" data-aos="fade-up" data-aos-duration="800">
                     <img src="img/dom_2.png" alt="house" class="deals__prices-content-image">
 
-                    <div class="deals__prices-content-text">
+                    <div class="deals__prices-content-text" data-aos="fade-up" data-aos-duration="1000">
                         <div class="deals__prices-content-price">
                             $41,000,000
                         </div>
@@ -1898,10 +1899,10 @@
                     </div>
                 </div>
 
-                <div class="deals__prices-content deals__prices-content--height">
+                <div class="deals__prices-content deals__prices-content--height" data-aos="fade-up" data-aos-duration="800">
                     <img src="img/dom_3.png" alt="house" class="deals__prices-content-image">
 
-                    <div class="deals__prices-content-text">
+                    <div class="deals__prices-content-text" data-aos="fade-up" data-aos-duration="1000">
                         <div class="deals__prices-content-price">
                             $41,000,000
                         </div>
@@ -1914,10 +1915,10 @@
                     </div>
                 </div>
 
-                <div class="deals__prices-content deals__prices-content--height">
+                <div class="deals__prices-content deals__prices-content--height" data-aos="fade-up" data-aos-duration="800">
                     <img src="img/dom_4.png" alt="house" class="deals__prices-content-image">
 
-                    <div class="deals__prices-content-text">
+                    <div class="deals__prices-content-text" data-aos="fade-up" data-aos-duration="1000">
                         <div class="deals__prices-content-price">
                             $41,000,000
                         </div>
@@ -1936,7 +1937,7 @@
                 <div class="deals__prices-content">
                     <img src="img/dom_9.png" alt="house" class="deals__prices-content-image">
 
-                    <div class="deals__prices-content-text">
+                    <div class="deals__prices-content-text" data-aos="fade-up" data-aos-duration="1000">
                         <div class="deals__prices-content-price">
                             $48,000,000
                         </div>
@@ -1949,10 +1950,10 @@
                     </div>
                 </div>
 
-                <div class="deals__prices-content deals__prices-content--height">
+                <div class="deals__prices-content deals__prices-content--height" data-aos="fade-up" data-aos-duration="800">
                     <img src="img/dom_8.png" alt="house" class="deals__prices-content-image">
 
-                    <div class="deals__prices-content-text">
+                    <div class="deals__prices-content-text" data-aos="fade-up" data-aos-duration="1000">
                         <div class="deals__prices-content-price">
                             $41,000,000
                         </div>
@@ -1965,10 +1966,10 @@
                     </div>
                 </div>
 
-                <div class="deals__prices-content deals__prices-content--height">
+                <div class="deals__prices-content deals__prices-content--height" data-aos="fade-up" data-aos-duration="800">
                     <img src="img/dom_7.png" alt="house" class="deals__prices-content-image">
 
-                    <div class="deals__prices-content-text">
+                    <div class="deals__prices-content-text" data-aos="fade-up" data-aos-duration="1000">
                         <div class="deals__prices-content-price">
                             $41,000,000
                         </div>
@@ -1981,10 +1982,10 @@
                     </div>
                 </div>
 
-                <div class="deals__prices-content deals__prices-content--height">
+                <div class="deals__prices-content deals__prices-content--height" data-aos="fade-up" data-aos-duration="800">
                     <img src="img/dom_6.png" alt="house" class="deals__prices-content-image">
 
-                    <div class="deals__prices-content-text">
+                    <div class="deals__prices-content-text" data-aos="fade-up" data-aos-duration="1000">
                         <div class="deals__prices-content-price">
                             $41,000,000
                         </div>
@@ -1997,10 +1998,10 @@
                     </div>
                 </div>
 
-                <div class="deals__prices-content deals__prices-content--height">
+                <div class="deals__prices-content deals__prices-content--height" data-aos="fade-up" data-aos-duration="800">
                     <img src="img/dom_1.png" alt="house" class="deals__prices-content-image">
 
-                    <div class="deals__prices-content-text">
+                    <div class="deals__prices-content-text" data-aos="fade-up" data-aos-duration="1000">
                         <div class="deals__prices-content-price">
                             $41,000,000
                         </div>
@@ -2013,10 +2014,10 @@
                     </div>
                 </div>
 
-                <div class="deals__prices-content deals__prices-content--height">
+                <div class="deals__prices-content deals__prices-content--height" data-aos="fade-up" data-aos-duration="800">
                     <img src="img/dom_2.png" alt="house" class="deals__prices-content-image">
 
-                    <div class="deals__prices-content-text">
+                    <div class="deals__prices-content-text" data-aos="fade-up" data-aos-duration="1000">
                         <div class="deals__prices-content-price">
                             $41,000,000
                         </div>
@@ -2029,10 +2030,10 @@
                     </div>
                 </div>
 
-                <div class="deals__prices-content deals__prices-content--height">
+                <div class="deals__prices-content deals__prices-content--height" data-aos="fade-up" data-aos-duration="800">
                     <img src="img/dom_3.png" alt="house" class="deals__prices-content-image">
 
-                    <div class="deals__prices-content-text">
+                    <div class="deals__prices-content-text" data-aos="fade-up" data-aos-duration="1000">
                         <div class="deals__prices-content-price">
                             $41,000,000
                         </div>
@@ -2045,10 +2046,10 @@
                     </div>
                 </div>
 
-                <div class="deals__prices-content deals__prices-content--height">
+                <div class="deals__prices-content deals__prices-content--height" data-aos="fade-up" data-aos-duration="800">
                     <img src="img/dom_4.png" alt="house" class="deals__prices-content-image">
 
-                    <div class="deals__prices-content-text">
+                    <div class="deals__prices-content-text" data-aos="fade-up" data-aos-duration="1000">
                         <div class="deals__prices-content-price">
                             $41,000,000
                         </div>
@@ -2061,10 +2062,10 @@
                     </div>
                 </div>
 
-                <div class="deals__prices-content deals__prices-content--height">
+                <div class="deals__prices-content deals__prices-content--height" data-aos="fade-up" data-aos-duration="800">
                     <img src="img/dom_9.png" alt="house" class="deals__prices-content-image">
 
-                    <div class="deals__prices-content-text">
+                    <div class="deals__prices-content-text" data-aos="fade-up" data-aos-duration="1000">
                         <div class="deals__prices-content-price">
                             $41,000,000
                         </div>
@@ -2077,10 +2078,10 @@
                     </div>
                 </div>
 
-                <div class="deals__prices-content deals__prices-content--height">
+                <div class="deals__prices-content deals__prices-content--height" data-aos="fade-up" data-aos-duration="800">
                     <img src="img/dom_8.png" alt="house" class="deals__prices-content-image">
 
-                    <div class="deals__prices-content-text">
+                    <div class="deals__prices-content-text" data-aos="fade-up" data-aos-duration="1000">
                         <div class="deals__prices-content-price">
                             $41,000,000
                         </div>
@@ -2093,10 +2094,10 @@
                     </div>
                 </div>
 
-                <div class="deals__prices-content deals__prices-content--height">
+                <div class="deals__prices-content deals__prices-content--height" data-aos="fade-up" data-aos-duration="800">
                     <img src="img/dom_7.png" alt="house" class="deals__prices-content-image">
 
-                    <div class="deals__prices-content-text">
+                    <div class="deals__prices-content-text" data-aos="fade-up" data-aos-duration="1000">
                         <div class="deals__prices-content-price">
                             $41,000,000
                         </div>
@@ -2109,10 +2110,10 @@
                     </div>
                 </div>
 
-                <div class="deals__prices-content deals__prices-content--height">
+                <div class="deals__prices-content deals__prices-content--height" data-aos="fade-up" data-aos-duration="800">
                     <img src="img/dom_6.png" alt="house" class="deals__prices-content-image">
 
-                    <div class="deals__prices-content-text">
+                    <div class="deals__prices-content-text" data-aos="fade-up" data-aos-duration="1000">
                         <div class="deals__prices-content-price">
                             $41,000,000
                         </div>
@@ -2131,7 +2132,7 @@
                 <div class="deals__prices-content">
                     <img src="img/dom_1.png" alt="house" class="deals__prices-content-image">
 
-                    <div class="deals__prices-content-text">
+                    <div class="deals__prices-content-text" data-aos="fade-up" data-aos-duration="1000">
                         <div class="deals__prices-content-price">
                             $48,000,000
                         </div>
@@ -2144,10 +2145,10 @@
                     </div>
                 </div>
 
-                <div class="deals__prices-content deals__prices-content--height">
+                <div class="deals__prices-content deals__prices-content--height" data-aos="fade-up" data-aos-duration="800">
                     <img src="img/dom_2.png" alt="house" class="deals__prices-content-image">
 
-                    <div class="deals__prices-content-text">
+                    <div class="deals__prices-content-text" data-aos="fade-up" data-aos-duration="1000">
                         <div class="deals__prices-content-price">
                             $41,000,000
                         </div>
@@ -2160,10 +2161,10 @@
                     </div>
                 </div>
 
-                <div class="deals__prices-content deals__prices-content--height">
+                <div class="deals__prices-content deals__prices-content--height" data-aos="fade-up" data-aos-duration="800">
                     <img src="img/dom_8.png" alt="house" class="deals__prices-content-image">
 
-                    <div class="deals__prices-content-text">
+                    <div class="deals__prices-content-text" data-aos="fade-up" data-aos-duration="1000">
                         <div class="deals__prices-content-price">
                             $41,000,000
                         </div>
@@ -2176,10 +2177,10 @@
                     </div>
                 </div>
 
-                <div class="deals__prices-content deals__prices-content--height">
+                <div class="deals__prices-content deals__prices-content--height" data-aos="fade-up" data-aos-duration="800">
                     <img src="img/dom_9.png" alt="house" class="deals__prices-content-image">
 
-                    <div class="deals__prices-content-text">
+                    <div class="deals__prices-content-text" data-aos="fade-up" data-aos-duration="1000">
                         <div class="deals__prices-content-price">
                             $41,000,000
                         </div>
@@ -2192,10 +2193,10 @@
                     </div>
                 </div>
 
-                <div class="deals__prices-content deals__prices-content--height">
+                <div class="deals__prices-content deals__prices-content--height" data-aos="fade-up" data-aos-duration="800">
                     <img src="img/dom_4.png" alt="house" class="deals__prices-content-image">
 
-                    <div class="deals__prices-content-text">
+                    <div class="deals__prices-content-text" data-aos="fade-up" data-aos-duration="1000">
                         <div class="deals__prices-content-price">
                             $41,000,000
                         </div>
@@ -2208,10 +2209,10 @@
                     </div>
                 </div>
 
-                <div class="deals__prices-content deals__prices-content--height">
+                <div class="deals__prices-content deals__prices-content--height" data-aos="fade-up" data-aos-duration="800">
                     <img src="img/dom_5.png" alt="house" class="deals__prices-content-image">
 
-                    <div class="deals__prices-content-text">
+                    <div class="deals__prices-content-text" data-aos="fade-up" data-aos-duration="1000">
                         <div class="deals__prices-content-price">
                             $41,000,000
                         </div>
@@ -2224,10 +2225,10 @@
                     </div>
                 </div>
 
-                <div class="deals__prices-content deals__prices-content--height">
+                <div class="deals__prices-content deals__prices-content--height" data-aos="fade-up" data-aos-duration="800">
                     <img src="img/dom_6.png" alt="house" class="deals__prices-content-image">
 
-                    <div class="deals__prices-content-text">
+                    <div class="deals__prices-content-text" data-aos="fade-up" data-aos-duration="1000">
                         <div class="deals__prices-content-price">
                             $41,000,000
                         </div>
@@ -2240,10 +2241,10 @@
                     </div>
                 </div>
 
-                <div class="deals__prices-content deals__prices-content--height">
+                <div class="deals__prices-content deals__prices-content--height" data-aos="fade-up" data-aos-duration="800">
                     <img src="img/dom_7.png" alt="house" class="deals__prices-content-image">
 
-                    <div class="deals__prices-content-text">
+                    <div class="deals__prices-content-text" data-aos="fade-up" data-aos-duration="1000">
                         <div class="deals__prices-content-price">
                             $41,000,000
                         </div>
@@ -2256,10 +2257,10 @@
                     </div>
                 </div>
 
-                <div class="deals__prices-content deals__prices-content--height">
+                <div class="deals__prices-content deals__prices-content--height" data-aos="fade-up" data-aos-duration="800">
                     <img src="img/dom_1.png" alt="house" class="deals__prices-content-image">
 
-                    <div class="deals__prices-content-text">
+                    <div class="deals__prices-content-text" data-aos="fade-up" data-aos-duration="1000">
                         <div class="deals__prices-content-price">
                             $41,000,000
                         </div>
@@ -2272,10 +2273,10 @@
                     </div>
                 </div>
 
-                <div class="deals__prices-content deals__prices-content--height">
+                <div class="deals__prices-content deals__prices-content--height" data-aos="fade-up" data-aos-duration="800">
                     <img src="img/dom_2.png" alt="house" class="deals__prices-content-image">
 
-                    <div class="deals__prices-content-text">
+                    <div class="deals__prices-content-text" data-aos="fade-up" data-aos-duration="1000">
                         <div class="deals__prices-content-price">
                             $41,000,000
                         </div>
@@ -2288,10 +2289,10 @@
                     </div>
                 </div>
 
-                <div class="deals__prices-content deals__prices-content--height">
+                <div class="deals__prices-content deals__prices-content--height" data-aos="fade-up" data-aos-duration="800">
                     <img src="img/dom_8.png" alt="house" class="deals__prices-content-image">
 
-                    <div class="deals__prices-content-text">
+                    <div class="deals__prices-content-text" data-aos="fade-up" data-aos-duration="1000">
                         <div class="deals__prices-content-price">
                             $41,000,000
                         </div>
@@ -2304,10 +2305,10 @@
                     </div>
                 </div>
 
-                <div class="deals__prices-content deals__prices-content--height">
+                <div class="deals__prices-content deals__prices-content--height" data-aos="fade-up" data-aos-duration="800">
                     <img src="img/dom_9.png" alt="house" class="deals__prices-content-image">
 
-                    <div class="deals__prices-content-text">
+                    <div class="deals__prices-content-text" data-aos="fade-up" data-aos-duration="1000">
                         <div class="deals__prices-content-price">
                             $41,000,000
                         </div>
@@ -2326,7 +2327,7 @@
                 <div class="deals__prices-content">
                     <img src="img/dom_8.png" alt="house" class="deals__prices-content-image">
 
-                    <div class="deals__prices-content-text">
+                    <div class="deals__prices-content-text" data-aos="fade-up" data-aos-duration="1000">
                         <div class="deals__prices-content-price">
                             $41,000,000
                         </div>
@@ -2339,10 +2340,10 @@
                     </div>
                 </div>
 
-                <div class="deals__prices-content deals__prices-content--height">
+                <div class="deals__prices-content deals__prices-content--height" data-aos="fade-up" data-aos-duration="800">
                     <img src="img/dom_9.png" alt="house" class="deals__prices-content-image">
 
-                    <div class="deals__prices-content-text">
+                    <div class="deals__prices-content-text" data-aos="fade-up" data-aos-duration="1000">
                         <div class="deals__prices-content-price">
                             $41,000,000
                         </div>
@@ -2355,10 +2356,10 @@
                     </div>
                 </div>
 
-                <div class="deals__prices-content deals__prices-content--height">
+                <div class="deals__prices-content deals__prices-content--height" data-aos="fade-up" data-aos-duration="800">
                     <img src="img/dom_1.png" alt="house" class="deals__prices-content-image">
 
-                    <div class="deals__prices-content-text">
+                    <div class="deals__prices-content-text" data-aos="fade-up" data-aos-duration="1000">
                         <div class="deals__prices-content-price">
                             $41,000,000
                         </div>
@@ -2371,10 +2372,10 @@
                     </div>
                 </div>
 
-                <div class="deals__prices-content deals__prices-content--height">
+                <div class="deals__prices-content deals__prices-content--height" data-aos="fade-up" data-aos-duration="800">
                     <img src="img/dom_2.png" alt="house" class="deals__prices-content-image">
 
-                    <div class="deals__prices-content-text">
+                    <div class="deals__prices-content-text" data-aos="fade-up" data-aos-duration="1000">
                         <div class="deals__prices-content-price">
                             $41,000,000
                         </div>
@@ -2387,10 +2388,10 @@
                     </div>
                 </div>
 
-                <div class="deals__prices-content deals__prices-content--height">
+                <div class="deals__prices-content deals__prices-content--height" data-aos="fade-up" data-aos-duration="800">
                     <img src="img/dom_6.png" alt="house" class="deals__prices-content-image">
 
-                    <div class="deals__prices-content-text">
+                    <div class="deals__prices-content-text" data-aos="fade-up" data-aos-duration="1000">
                         <div class="deals__prices-content-price">
                             $41,000,000
                         </div>
@@ -2403,10 +2404,10 @@
                     </div>
                 </div>
 
-                <div class="deals__prices-content deals__prices-content--height">
+                <div class="deals__prices-content deals__prices-content--height" data-aos="fade-up" data-aos-duration="800">
                     <img src="img/dom_7.png" alt="house" class="deals__prices-content-image">
 
-                    <div class="deals__prices-content-text">
+                    <div class="deals__prices-content-text" data-aos="fade-up" data-aos-duration="1000">
                         <div class="deals__prices-content-price">
                             $41,000,000
                         </div>
@@ -2419,10 +2420,10 @@
                     </div>
                 </div>
 
-                <div class="deals__prices-content deals__prices-content--height">
+                <div class="deals__prices-content deals__prices-content--height" data-aos="fade-up" data-aos-duration="800">
                     <img src="img/dom_4.png" alt="house" class="deals__prices-content-image">
 
-                    <div class="deals__prices-content-text">
+                    <div class="deals__prices-content-text" data-aos="fade-up" data-aos-duration="1000">
                         <div class="deals__prices-content-price">
                             $41,000,000
                         </div>
@@ -2435,10 +2436,10 @@
                     </div>
                 </div>
 
-                <div class="deals__prices-content deals__prices-content--height">
+                <div class="deals__prices-content deals__prices-content--height" data-aos="fade-up" data-aos-duration="800">
                     <img src="img/dom_5.png" alt="house" class="deals__prices-content-image">
 
-                    <div class="deals__prices-content-text">
+                    <div class="deals__prices-content-text" data-aos="fade-up" data-aos-duration="1000">
                         <div class="deals__prices-content-price">
                             $41,000,000
                         </div>
@@ -2451,10 +2452,10 @@
                     </div>
                 </div>
 
-                <div class="deals__prices-content deals__prices-content--height">
+                <div class="deals__prices-content deals__prices-content--height" data-aos="fade-up" data-aos-duration="800">
                     <img src="img/dom_8.png" alt="house" class="deals__prices-content-image">
 
-                    <div class="deals__prices-content-text">
+                    <div class="deals__prices-content-text" data-aos="fade-up" data-aos-duration="1000">
                         <div class="deals__prices-content-price">
                             $41,000,000
                         </div>
@@ -2467,10 +2468,10 @@
                     </div>
                 </div>
 
-                <div class="deals__prices-content deals__prices-content--height">
+                <div class="deals__prices-content deals__prices-content--height" data-aos="fade-up" data-aos-duration="800">
                     <img src="img/dom_9.png" alt="house" class="deals__prices-content-image">
 
-                    <div class="deals__prices-content-text">
+                    <div class="deals__prices-content-text" data-aos="fade-up" data-aos-duration="1000">
                         <div class="deals__prices-content-price">
                             $41,000,000
                         </div>
@@ -2483,10 +2484,10 @@
                     </div>
                 </div>
 
-                <div class="deals__prices-content deals__prices-content--height">
+                <div class="deals__prices-content deals__prices-content--height" data-aos="fade-up" data-aos-duration="800">
                     <img src="img/dom_1.png" alt="house" class="deals__prices-content-image">
 
-                    <div class="deals__prices-content-text">
+                    <div class="deals__prices-content-text" data-aos="fade-up" data-aos-duration="1000">
                         <div class="deals__prices-content-price">
                             $41,000,000
                         </div>
@@ -2499,10 +2500,10 @@
                     </div>
                 </div>
 
-                <div class="deals__prices-content deals__prices-content--height">
+                <div class="deals__prices-content deals__prices-content--height" data-aos="fade-up" data-aos-duration="800">
                     <img src="img/dom_2.png" alt="house" class="deals__prices-content-image">
 
-                    <div class="deals__prices-content-text">
+                    <div class="deals__prices-content-text" data-aos="fade-up" data-aos-duration="1000">
                         <div class="deals__prices-content-price">
                             $41,000,000
                         </div>
@@ -2517,16 +2518,16 @@
             </div>
 
             <div class="deals__moving">
-                <div class="deals__moving-more">More</div>
-                <button id="next1" class="deals__moving-next" onclick="plusMinusPages(1)">Next</button>
+                <div id="loadMore" class="deals__moving-more" data-aos="fade-up" data-aos-duration="800">More</div>
+                <button id="next1" class="deals__moving-next" data-aos="fade-up" data-aos-duration="800" onclick="plusMinusPages(1)">Next</button>
                 <div class="deals__moving-options">
-                    <button id="prev" class="deals__moving-options-prev" onclick="plusMinusPages(-1)">
+                    <button id="prev" class="deals__moving-options-prev" data-aos="fade-right" data-aos-duration="800" onclick="plusMinusPages(-1)">
                         <img src="img/triangle_left_1.png" alt="prev">
                     </button>
-                    <div class="deals__moving-options-numbers">
-                        <span class="deals__moving-options-numbers--change">1</span>/12
+                    <div class="deals__moving-options-numbers" data-aos="fade-up" data-aos-duration="800">
+                        <span id="number" class="deals__moving-options-numbers--change">1</span>/12
                     </div>
-                    <button id="next" class="deals__moving-options-next" onclick="plusMinusPages(1)">
+                    <button id="next" class="deals__moving-options-next" data-aos="fade-left" data-aos-duration="800" onclick="plusMinusPages(1)">
                         <img src="img/triangle_right_1.png" alt="next">
                     </button>
                 </div>
@@ -2536,9 +2537,9 @@
 
     <footer class="footer">
         <nav class="footer__navigation">
-            <img src="img/Logo-white.png" alt="Logo Seven Stone" class="footer__navigation-image">
+            <img src="img/Logo-white.png" alt="Logo Seven Stone" class="footer__navigation-image" data-aos="fade-down">
 
-            <ul class="footer__navigation-list" id="navUL">
+            <ul class="footer__navigation-list" id="navUL" data-aos="fade-up">
                 <li><a class="footer__navigation-list-item" href="leadership.html">Leadership</a></li>
                 <li><a class="footer__navigation-list-item" href="transactions.html">Transactions</a></li>
                 <li><a class="footer__navigation-list-item" id="aboutus_footer" href="#">About Us</a></li>
@@ -2551,14 +2552,14 @@
         </div>
 
         <form class="footer__form" action="#">
-            <div class="footer__form-small-text">
+            <div class="footer__form-small-text" data-aos="zoom-in">
                 Join our email list so we can spam you with our latest
                 success stories, and industry updates.
             </div>
 
             <div class="footer__form-inputs">
-                <input class="footer__form-inputs-email" type="email" placeholder="Email Address">
-                <input class="footer__form-inputs-signup" type="submit" value="Sign Up">
+                <input class="footer__form-inputs-email" data-aos="fade-right" data-aos-duration="700" type="email" placeholder="Email Address">
+                <input class="footer__form-inputs-signup" data-aos="fade-left" data-aos-duration="700" type="submit" value="Sign Up">
             </div>
         </form>
 
@@ -2581,6 +2582,11 @@
     <script src="js/leadership_show_about.js"></script>
     <script src="js/show_hide_filters.js"></script>
     <script src="js/moving_prices.js"></script>
+    <script src="js/show_more.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 </body>
 
 </html>

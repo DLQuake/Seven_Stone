@@ -13,30 +13,32 @@
     <link href="http://fonts.cdnfonts.com/css/tiempos-headline" rel="stylesheet">
     <script src="https://kit.fontawesome.com/c3b80f3861.js" crossorigin="anonymous"></script>
 
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
 </head>
 
 <body>
     <header class="header">
         <nav class="navigation">
-            <div class="navigation__logo">
+            <div class="navigation__logo" data-aos="fade-right" data-aos-duration="500">
                 <a class="navigation__logo-link" href="index.html">
                     <img class="navigation__logo-image" src="img/Logo-green.png" alt="Rightfully's logo">
                 </a>
             </div>
 
-            <button class="navigation__button" id="hamburger">
+            <button class="navigation__button" id="hamburger" data-aos="fade-left" data-aos-duration="700">
                 <img class="navigation__button-image" src="img/Polygon 1.png" alt="button">
             </button>
 
-            <ul class="navigation__list" id="navUL">
+            <ul class="navigation__list" id="navUL" data-aos="fade-left" data-aos-duration="700">
                 <li><div class="navigation__list-rectangle"><img src="img/triangle_down-mobile.png" alt="traingle" class="navigation__list-rectangle-image"></div></li>
                 <li><a class="navigation__list-item" href="leadership.html">Leadership</a></li>
                 <li><div class="navigation__list-rectangle"><img src="img/triangle_down-mobile.png" alt="traingle" class="navigation__list-rectangle-image"></div></li>
                 <li><a class="navigation__list-item" href="transactions.html">Transactions</a></li>
                 <li><div class="navigation__list-rectangle"><img src="img/triangle_down-mobile.png" alt="traingle" class="navigation__list-rectangle-image"></div></li>
-                <li><a class="navigation__list-item" id="aboutus_header" href="#">About Us</a></li>
+                <li><a class="navigation__list-item" id="aboutus_header" href="index.html#Toaboutus">About Us</a></li>
                 <li><div class="navigation__list-rectangle"><img src="img/triangle_down-mobile.png" alt="traingle" class="navigation__list-rectangle-image"></div></li>
-                <li><a class="navigation__list-item" id="contact_header" href="#">Contact</a></li>
+                <li><a class="navigation__list-item" id="contact_header" href="#Tocontact">Contact</a></li>
                 <li><div class="navigation__list-rectangle"><img src="img/triangle_down-mobile.png" alt="traingle" class="navigation__list-rectangle-image"></div></li>
                 <li><a class="navigation__list-item navigation__list-item--login" href="#">Login</a></li>
                 <li>
@@ -53,9 +55,9 @@
         <div class="welcome">
             <div class="welcome__container">
                 <div class="welcome__left">
-                    <div class="welcome__left-big-text">Come on in, we're closing.</div>
-                    <div class="welcome__left-small-text">Commercial Mortgage Brokerage</div>
-                    <div class="welcome__left-table" id="table">
+                    <div class="welcome__left-big-text" data-aos="zoom-in">Come on in, we're closing.</div>
+                    <div class="welcome__left-small-text" data-aos="zoom-in">Commercial Mortgage Brokerage</div>
+                    <div class="welcome__left-table" id="table" data-aos="fade-up">
                         <table class="welcome__left-table-first">
                             <tr class="welcome__left-table-row">
                                 <th class="welcome__left-table-left">LIVE INTEREST RATES</th>
@@ -115,7 +117,7 @@
                     </div>
                 </div>
 
-                <div class="welcome__right">
+                <div class="welcome__right" data-aos="fade-up">
                     <img src="img/unsplash_JI01fn0U7Cg.png" alt="Building" class="welcome__right-image">
                 </div>
             </div>
@@ -129,14 +131,14 @@
     <main class="main">
         <section class="about-us">
             <div class="about-us__flex1">
-                <img class="about-us__flex1-image" src="img/patrick-tomasso-5eZu5p0vSPg-unsplash copy.png" alt="Bulding">
+                <img class="about-us__flex1-image" data-aos="fade-right" data-aos-duration="700" src="img/patrick-tomasso-5eZu5p0vSPg-unsplash copy.png" alt="Bulding">
 
                 <div class="about-us__flex1-text">
-                    <h1 class="about-us__flex1-text-big">
+                    <h1 class="about-us__flex1-text-big" data-aos="zoom-in-down" data-aos-duration="700">
                         More of us, getting more for you™
                     </h1>
 
-                    <p class="about-us__flex1-text-small">
+                    <p class="about-us__flex1-text-small" data-aos="zoom-in-up" data-aos-duration="700">
                         No one gets into real estate to make a little passive income. You get into real
                         estate because you want to build an empire that spans cities, states, and
                         countries. But you can't do any of that without a good broker. One that
@@ -156,11 +158,9 @@
             </div>
 
             <div class="about-us__flex2">
-                <div class="about-us__flex2-image">
-                    <img src="img/Moving_Email_1.png" alt="interior" class="about-us__flex2-image">
-                </div>
+                <img src="img/Moving_Email_1.png" alt="interior" class="about-us__flex2-image" data-aos="fade-right" data-aos-duration="700">
 
-                <div class="about-us__flex2-text">
+                <div class="about-us__flex2-text" data-aos="zoom-in-up" data-aos-duration="700">
                     With seven
                     creative minds
                     behind every
@@ -187,14 +187,14 @@
 
         <section class="deals">
             <div class="deals__content">
-                <img class="deals__content-image" src="img/Layer 1.png" alt="Bulding">
+                <img class="deals__content-image" data-aos="fade-right" data-aos-duration="700" src="img/Layer 1.png" alt="Bulding">
 
-                <div class="deals__content-text">
-                    <h1 class="deals__content-text-big">
+                <div class="deals__content-text" >
+                    <h1 class="deals__content-text-big" data-aos="zoom-in-down" data-aos-duration="700">
                         Get big deals done like it's no big deal
                     </h1>
 
-                    <p class="deals__content-text-small">
+                    <p class="deals__content-text-small" data-aos="zoom-in-up" data-aos-duration="700">
                         We don't like to be competitive, or "in line with industry standards."We want to knock your
                         dress
                         socks off and get asked what's the catch. Spoiler, there is none, just seven times the brains,
@@ -205,17 +205,17 @@
                         you.
                     </p>
 
-                    <p class="deals__content-text-small-bold">
+                    <p class="deals__content-text-small-bold" data-aos="zoom-in-up" data-aos-duration="700">
                         Continue building your empire, one property at a time.
                     </p>
                 </div>
             </div>
 
             <div class="deals__prices">
-                <div class="deals__prices-content">
+                <div class="deals__prices-content"  data-aos="fade-up" data-aos-duration="800">
                     <img src="img/dom_1.png" alt="house" class="deals__prices-content-image">
 
-                    <div class="deals__prices-content-text">
+                    <div class="deals__prices-content-text"  data-aos="fade-up" data-aos-duration="1000">
                         <div class="deals__prices-content-price">
                             $41,000,000
                         </div>
@@ -228,10 +228,10 @@
                     </div>
                 </div>
 
-                <div class="deals__prices-content">
+                <div class="deals__prices-content"  data-aos="fade-up" data-aos-duration="800">
                     <img src="img/dom_1.png" alt="house" class="deals__prices-content-image">
 
-                    <div class="deals__prices-content-text">
+                    <div class="deals__prices-content-text"  data-aos="fade-up" data-aos-duration="1000">
                         <div class="deals__prices-content-price">
                             $41,000,000
                         </div>
@@ -244,10 +244,10 @@
                     </div>
                 </div>
 
-                <div class="deals__prices-content">
+                <div class="deals__prices-content"  data-aos="fade-up" data-aos-duration="800">
                     <img src="img/dom_3.png" alt="house" class="deals__prices-content-image">
 
-                    <div class="deals__prices-content-text">
+                    <div class="deals__prices-content-text"  data-aos="fade-up" data-aos-duration="1000">
                         <div class="deals__prices-content-price">
                             $41,000,000
                         </div>
@@ -260,10 +260,10 @@
                     </div>
                 </div>
 
-                <div class="deals__prices-content">
+                <div class="deals__prices-content"  data-aos="fade-up" data-aos-duration="800">
                     <img src="img/dom_4.png" alt="house" class="deals__prices-content-image">
 
-                    <div class="deals__prices-content-text">
+                    <div class="deals__prices-content-text"  data-aos="fade-up" data-aos-duration="1000">
                         <div class="deals__prices-content-price">
                             $41,000,000
                         </div>
@@ -279,16 +279,16 @@
 
 
             <div class="deals__link">
-                <div class="deals__link-arrow-right">
+                <div class="deals__link-arrow-right" data-aos="fade-up" data-aos-duration="700">
                     <div class="deals__link-line"></div>
                     <img src="img/triangle_right.png" alt="arrow" class="deals__link-arrow-right-image">
                 </div>
 
-                <a href="#" class="deals__link-text">
+                <a href="#" class="deals__link-text" data-aos="zoom-in" data-aos-duration="700">
                     See all recent deals
                 </a>
 
-                <div class="deals__link-arrow-left">
+                <div class="deals__link-arrow-left" data-aos="fade-up" data-aos-duration="700">
                     <img src="img/triangle_left.png" alt="arrow" class="deals__link-arrow-left-image">
                     <div class="deals__link-line"></div>
                 </div>
@@ -296,17 +296,17 @@
         </section>
 
         <section class="loan-options">
-            <div class="loan-options__title">
-                <div class="loan-options__title-text">
+            <div class="loan-options__title" data-aos="fade-up" data-aos-duration="700">
+                <div class="loan-options__title-text" data-aos="zoom-in-up" data-aos-duration="900">
                     Loan Options
                 </div>
             </div>
 
             <div class="loan-options__text">
-                <h1 class="loan-options__text-big">
+                <h1 class="loan-options__text-big" data-aos="zoom-in-right" data-aos-duration="700">
                     You've got options. All of them.
                 </h1>
-                <p class="loan-options__text-small">
+                <p class="loan-options__text-small" data-aos="zoom-in-down" data-aos-duration="700">
                     Whether you're looking to refinance, reposition, or recapitalize on a current
                     property, or you're expanding and need an acquisition, construction,
                     bridge, mezzanine, or equity loan, there's no better team to get it done.
@@ -317,7 +317,7 @@
             </div>
 
             <div class="loan-options__buttons">
-                <div class="loan-options__buttons-button">
+                <div class="loan-options__buttons-button" data-aos="fade-up" data-aos-duration="700">
                     <div class="loan-options__buttons-button-text">
                         <img src="img/button1.png" alt="button 1" class="loan-options__buttons-button-icon">
                         multifamily
@@ -328,7 +328,7 @@
                     </div>
                 </div>
 
-                <div class="loan-options__buttons-button">
+                <div class="loan-options__buttons-button" data-aos="fade-up" data-aos-duration="900">
                     <div class="loan-options__buttons-button-text">
                         <img src="img/button2.png" alt="button 2" class="loan-options__buttons-button-icon">
                         healthcare
@@ -339,7 +339,7 @@
                     </div>
                 </div>
 
-                <div class="loan-options__buttons-button">
+                <div class="loan-options__buttons-button" data-aos="fade-up" data-aos-duration="1100">
                     <div class="loan-options__buttons-button-text">
                         <img src="img/button3.png" alt="button 3" class="loan-options__buttons-button-icon">
                         Retail
@@ -350,7 +350,7 @@
                     </div>
                 </div>
 
-                <div class="loan-options__buttons-button">
+                <div class="loan-options__buttons-button" data-aos="fade-up" data-aos-duration="1300">
                     <div class="loan-options__buttons-button-text">
                         <img src="img/button4.png" alt="button 4" class="loan-options__buttons-button-icon">
                         Office
@@ -364,36 +364,36 @@
         </section>
 
         <section class="contact">
-            <div class="contact__title">
+            <div class="contact__title contact__title--show" data-aos="zoom-in-down" data-aos-duration="700">
                 Take these terms and call us in the morning.
             </div>
             <form class="contact__form">
-                <input class="contact__form-item" type="text"placeholder="First Name">
-                <input class="contact__form-item" type="text"placeholder="Last Name">
-                <input class="contact__form-item" type="email" placeholder="Email">
-                <input class="contact__form-item" type="tel" placeholder="Phone">
-                <textarea class="contact__form-item contact__form-item--textarea" placeholder="Write a message" cols="10" rows="10"></textarea>
+                <input class="contact__form-item" data-aos="fade-up" data-aos-duration="500" type="text"placeholder="First Name">
+                <input class="contact__form-item" data-aos="fade-up" data-aos-duration="500" type="text"placeholder="Last Name">
+                <input class="contact__form-item" data-aos="fade-up" data-aos-duration="700" type="email" placeholder="Email">
+                <input class="contact__form-item" data-aos="fade-up" data-aos-duration="700" type="tel" placeholder="Phone">
+                <textarea class="contact__form-item contact__form-item--textarea" data-aos="fade-up" data-aos-duration="900" placeholder="Write a message" cols="10" rows="10"></textarea>
 
-                <div class="contact__form-adress">
+                <div class="contact__form-adress" data-aos="fade-up" data-aos-duration="1100">
                     Phone: 732-965-6791 <br>
                     HQ: 311 Blvd of the Amercias, Suite 401. Lakewood NJ, 08701
                 </div>
 
                 <div class="contact__form-socials">
-                    <a class="contact__form-socials-item" href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
-                    <a class="contact__form-socials-item" href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
-                    <a class="contact__form-socials-item" href="https://twitter.com/"><i class="fa-brands fa-twitter"></i></a>
+                    <a class="contact__form-socials-item" data-aos="fade-up" data-aos-duration="1100" href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                    <a class="contact__form-socials-item" data-aos="fade-up" data-aos-duration="1100" href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                    <a class="contact__form-socials-item" data-aos="fade-up" data-aos-duration="1100" href="https://twitter.com/"><i class="fa-brands fa-twitter"></i></a>
                 </div>
-                <button  class="contact__form-item contact__form-item--submit" type="submit">Submit</button>
+                <button  class="contact__form-item contact__form-item--submit" data-aos="fade-up" data-aos-duration="1100" type="submit">Submit</button>
             </form>
         </section>
     </main>
 
     <footer class="footer">
         <nav class="footer__navigation">
-            <img src="img/Logo-white.png" alt="Logo Seven Stone" class="footer__navigation-image">
+            <img src="img/Logo-white.png" alt="Logo Seven Stone" class="footer__navigation-image" data-aos="fade-down">
 
-            <ul class="footer__navigation-list" id="navUL">
+            <ul class="footer__navigation-list" id="navUL" data-aos="fade-up">
                 <li><a class="footer__navigation-list-item" href="leadership.html">Leadership</a></li>
                 <li><a class="footer__navigation-list-item" href="transactions.html">Transactions</a></li>
                 <li><a class="footer__navigation-list-item" id="aboutus_footer" href="#">About Us</a></li>
@@ -406,14 +406,14 @@
         </div>
 
         <form class="footer__form" action="#">
-            <div class="footer__form-small-text">
+            <div class="footer__form-small-text" data-aos="zoom-in">
                 Join our email list so we can spam you with our latest
                 success stories, and industry updates.
             </div>
 
             <div class="footer__form-inputs">
-                <input class="footer__form-inputs-email" type="email" placeholder="Email Address">
-                <input class="footer__form-inputs-signup" type="submit" value="Sign Up">
+                <input class="footer__form-inputs-email" data-aos="fade-up" data-aos-duration="700" type="email" placeholder="Email Address">
+                <input class="footer__form-inputs-signup" data-aos="fade-up" data-aos-duration="700" type="submit" value="Sign Up">
             </div>
         </form>
 
@@ -433,6 +433,10 @@
     <script src="js/jquery.scrollTo.min.js"></script>
     <script src="js/scrollto.js"></script>
     <script src="js/mobile_menu.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 </body>
 
 </html>
