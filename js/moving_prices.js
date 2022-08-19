@@ -1,43 +1,23 @@
 let prev = document.getElementById('prev');
 let next = document.getElementById('next');
 let next1 = document.getElementById('next1');
-let number = document.getElementsByClassName('deals__moving-options-numbers--change')
-
-prev.addEventListener('click', function () {
-    for (let i = 0; i < number.length; i++) {
-        number[i].innerHTML = parseInt(number[i].innerHTML) - 1;
-        if (number[i].innerHTML < 1) {
-            number[i].innerHTML = 1;
-            return;
-        }
-    }
-});
-
-next.addEventListener('click', function () {
-    for (let i = 0; i < number.length; i++) {
-        number[i].innerHTML = parseInt(number[i].innerHTML) + 1;
-        if (number[i].innerHTML > 12) {
-            number[i].innerHTML = 12;
-            return;
-        }
-    }
-});
-
-next1.addEventListener('click', function () {
-    for (let i = 0; i < number.length; i++) {
-        number[i].innerHTML = parseInt(number[i].innerHTML) + 1;
-        if (number[i].innerHTML > 12) {
-            number[i].innerHTML = 12;
-            return;
-        }
-    }
-});
+let number = document.getElementById('number');
 
 let slideIndex = 1;
 moveContent(slideIndex);
 
 function plusMinusPages(n) {
     moveContent(slideIndex += n);
+    currentPage(slideIndex);
+}
+
+function currentPage(n) {
+    number.innerHTML = slideIndex = n;
+    if (slideIndex < 1 || slideIndex > 12) {
+        prev.disabled = true;
+        next.disabled = true;
+        next1.disabled = true;
+    }
 }
 
 function moveContent(n) {
