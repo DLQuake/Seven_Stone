@@ -4,7 +4,7 @@
     align-items: center
     justify-content: center
 
-    gap: 80px
+    gap: 40px
 
     &__content
         display: flex
@@ -72,15 +72,20 @@
             flex-direction: column
             justify-content: center
             transition: all 0.3s ease-in-out
-            height: 341.89px
+            margin-bottom: 20px
 
             &:hover
                 transform: scale(1.1)
                 cursor: pointer
 
+            &-image
+                width: 238px
+                height: 265px
+
             &-text
-                position: relative
-                top: -95px
+                position: absolute
+                width: 238px
+                margin-top: 150px
 
             &-price
                 font-weight: 900
@@ -103,7 +108,6 @@
                 background-color: $MSUGreen
                 color: $Honeydew
                 padding: 15px
-                width: 238px
 
     &__link
         display: flex
@@ -298,12 +302,21 @@
 
             &-content
                 width: 169px
-                height: 250px
+
+                &-image
+                    width: 169px
+                    height: 188.17px
+
+                &-text
+                    margin-top: 115px
+                    width: 169px
 
                 &-price
+                    padding: 5px
                     width: 121px
 
                 &-data
+                    padding: 5px 15px
                     width: 139px
                     font-size: 14px
 
