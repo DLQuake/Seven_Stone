@@ -138,9 +138,6 @@
     top: -15px;
     transform: rotate(180deg);
   }
-  .show {
-    display: flex;
-  }
 }
 @media (max-width: 360px) {
   .navigation__logo-image {
@@ -436,7 +433,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 80px;
+  gap: 40px;
 }
 .deals__content {
   display: flex;
@@ -503,15 +500,20 @@
   flex-direction: column;
   justify-content: center;
   transition: all 0.3s ease-in-out;
-  height: 341.89px;
+  margin-bottom: 20px;
 }
 .deals__prices-content:hover {
   transform: scale(1.1);
   cursor: pointer;
 }
+.deals__prices-content-image {
+  width: 238px;
+  height: 265px;
+}
 .deals__prices-content-text {
-  position: relative;
-  top: -95px;
+  position: absolute;
+  width: 238px;
+  margin-top: 150px;
 }
 .deals__prices-content-price {
   font-weight: 900;
@@ -533,7 +535,6 @@
   background-color: #093E38;
   color: #D4E5CE;
   padding: 15px;
-  width: 238px;
 }
 .deals__link {
   display: flex;
@@ -722,12 +723,21 @@
   }
   .deals__prices-content {
     width: 169px;
-    height: 250px;
+  }
+  .deals__prices-content-image {
+    width: 169px;
+    height: 188.17px;
+  }
+  .deals__prices-content-text {
+    margin-top: 115px;
+    width: 169px;
   }
   .deals__prices-content-price {
+    padding: 5px;
     width: 121px;
   }
   .deals__prices-content-data {
+    padding: 5px 15px;
     width: 139px;
     font-size: 14px;
   }
@@ -1073,7 +1083,7 @@
   }
   .leadership__leaders-leader-about {
     display: none;
-    gap: 120px;
+    gap: 30px;
   }
   .leadership__leaders-leader-about-text {
     height: 100%;
@@ -1083,6 +1093,14 @@
   }
   .leadership__rectangle {
     display: none;
+  }
+}
+@media (max-width: 330px) {
+  .leadership__leaders-leader {
+    width: 80vw;
+  }
+  .leadership__leaders-leader-who {
+    width: 80vw;
   }
 }
 .contact {
